@@ -27,6 +27,7 @@ params:
     name: "Open Sans"
     sizes: [400,600]
   googleRecaptchaKey: 6LcU1ukeAAAAADHPVVE3dpOLhFnZPOzZY1z7UZsa
+  formspreeID: mayvbdpl
   hero:
     # Main hero title
     title: スポーツの力で世の中をより良くする
