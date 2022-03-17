@@ -26,7 +26,7 @@ params:
   font:
     name: "Open Sans"
     sizes: [400,600]
-  googleRecaptchaKey: 6Lfn0ZAUAAAAAHi5bvSjrS7slujNFvj1dP5A1VzP
+  googleRecaptchaKey: 6LcU1ukeAAAAADHPVVE3dpOLhFnZPOzZY1z7UZsa
   hero:
     # Main hero title
     title: スポーツの力で世の中をより良くする
