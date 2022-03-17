@@ -1,8 +1,10 @@
-baseURL: http://something-fresh.org/
+baseURL: https://players1st.github.io/company/
 languageCode: ja-jp
 title: 株式会社プレイヤーズファースト Players1st inc.
 theme: fresh
 googleAnalytics: UA-73836462-3
+publishDir: "docs"
+canonifyURLs: true
 # Disables warnings
 disableKinds:
 - taxonomy
