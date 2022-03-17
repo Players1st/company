@@ -1,0 +1,59 @@
+{{- $section4 := .Site.Params.section4 }}
+{{- $title    := index $section4 "title" }}
+{{- $subtitle := index $section4 "subtitle" }}
+{{- $members  := index $section4 "members" }}
+<section class="section is-medium section-primary">
+  <div class="container">
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 light-text is-spaced">{{ $title }}</h2>
+      {{- with $subtitle }}
+      <h3 class="subtitle is-5 light-text">{{ . }}</h3>
+      {{- end }}
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns is-vcentered">
+        {{- range $members }}
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-image">
+              <div class="author">
+                <img src="{{ printf "/images/team/%s.png" (string .img) | relURL }}" alt=""/>
+              </div>
+            </div>
+            <div class="card-header">
+              <div class="card-header-title is-size5">
+                {{ .name }}<br>
+                {{ .jpName }}
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <div class="is-size5 is-primary has-text-weight-bold">
+                  {{ .job }}
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  {{ .quote }}
+                </p>
+              </div>
+              <nav class="level is-mobile">
+                <div class="level-left">
+                  {{- range .socialmedia }}
+                  <a class="level-item is-secondary" href="{{ .link }}">
+                    <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                  </a>
+                  {{ end }}
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,196 @@
+baseURL: http://something-fresh.org/
+languageCode: ja-jp
+title: 株式会社プレイヤーズファースト Players1st inc.
+theme: fresh
+googleAnalytics: UA-73836462-3
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/logo-horizontal.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  googleRecaptchaKey: 6Lfn0ZAUAAAAAHi5bvSjrS7slujNFvj1dP5A1VzP
+  hero:
+    # Main hero title
+    title: スポーツの力で世の中をより良くする
+    # Hero subtitle (optional)
+    subtitle: 世界中のスポーツを愛する人々を支える最高のサービスを提供する
+    # Button text
+    buttontext:
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: logos/logo-reverse.jpeg
+    storyTitle: Players1stのミッション
+    storyDescription:
+      Players1st（プレイヤーズファースト）は、アスリート、料理人、職人、アーティストなど人々の心を揺さぶることのできる人たちの価値を高め、より良く生きていくための環境を創ります。
+      将来、子どもたちが創造的な職業を安心して選べるように、世の中をより良く変えていきます。
+    # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Home
+    url: /
+  - title: Services
+    url: /#services
+  - title: Contact
+    url: /#contact
+  - title: サービスサイト
+    url: https://players1.st
+    button: true
+  # sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
+  section1:
+    title: 事業内容
+    subtitle:
+    tiles:
+    - title: Players1st
+      subtitle: スポーツファンディングサイト
+      icon: p1st
+      text: Players1st（プレイヤーズファースト）は、経済的課題を抱える現役アスリートやクラブチームのために活動資金を募集するサービスです。月額スポンサー、メッセージ付投げ銭、ニュース掲載情報の自動検索配信など、選手活動に必要な課金・PR機能を提供しています。
+      url: https://players1.st
+      buttonText: サービスサイト
+    - title: コインパス
+      subtitle: メッセージ付き投げ銭アプリ
+      icon: coinpass
+      text: コインパスはあらゆるお店にメッセージ付き支援金を直接届ける投げ銭アプリです。金額は500円から。メッセージを添えて素早く届けることができます。「思いをカタチに」そんな大切にしたい思いをカタチしたアプリです。
+      url: https://coinpass.mystrikingly.com/
+      buttonText: アプリ紹介サイト
+    - title: フットサルメット
+      subtitle: フットサル専用メンバー募集アプリ
+      icon: futsalmet
+      text: フットサルで人を集めたい人と参加したい人をつなぐアプリです。メンバー募集は、日時、コートの場所、募集人数を指定して作成するだけ。参加したい人は、募集一覧から参加申し込みをするだけ。募集人数が集まったら開催決定です。広告なしのシンプルなデザインで簡単に使えます。
+      url: https://futsal.mystrikingly.com/
+      buttonText: アプリ紹介サイト
+  section2:
+    title: 業務スタイル
+    subtitle: 一般的な業務形態は採用していません。「スポーツの力で世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
+    features:
+    - title: リモートワーク
+      text: オフィスを持たないフルリモートワーク。現状メンバーは、東京、青森。基本オンラインコミュニケーションです。
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: earth
+    - title: 雇用形態はもっと自由に
+      text: 正社員、契約(個人事業主や法人との)、パート・アルバイトなど形態は自由。
+      icon: employment
+    - title: 拘束時間なし
+      text: ミッションとタスクによってドリブンさせるスタイルで、業務時間や業務規程はなし。
+      icon: clock
+  section3:
+    title: Players1st プレイヤーズファースト
+    subtitle: 現役アスリート・クラブチームのための月額スポンサー募集サイト
+    image: screenshots/top3.png
+    buttonText: 利用開始
+    buttonLink: https://players1.st
+  section4:
+    title: チーム
+    subtitle: スポーツの力を信じるメンバーが集まりました。
+    members:
+    - name: Hiro Fukami
+      jpName: 深海 寛信
+      quote: 元 シリコンバレースタートアップ fluxflex, inc. 共同創業者。CEO、好きなスポーツ：フットサル、サッカー
+      job: 代表取締役社長, CEO, 創業者, Product Manager, Engineer
+      img: fukami
+      socialmedia:
+      - link: https://www.linkedin.com/in/hirofukami
+        icon: linkedin
+      - link: https://twitter.com/d_sea
+        icon: twitter
+      - link: https://instagram/d_sea
+        icon: instagram
+      - link: https://facebook.com/fukami
+        icon: facebook
+    - name: Yuu Furuya
+      jpName: 古谷 遊
+      quote: ふるや弁当、フリーランスプログラマー。好きなスポーツ：サッカー、ミッドスキー
+      job: Engineer
+      img: furuya
+    - name: Saito
+      jpName: さいとう
+      quote: 青森を拠点とするライター、ブロガー
+      job: Customer Support, Promotion
+      img: saito
+  section5: true
+  section6:
+    title: 私たちは、社会をより豊かにするために、インターネットとソフトウエアを使う、テクノロジーカンパニーです。
+    name: 株式会社プレイヤーズファースト
+    address: 東京都世田谷区
+    publish: 2016年3月
+    ceo: 深海寛信
+  footer:
+    # Logo (from /images/logos/___)
+    logo: logo-horizontal.png
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://www.instagram.com/players1st.web/
+      # Icons are from Font Awesome
+      icon: instagram
+    - link: https://twitter.com/pys1st
+      icon: twitter
+    - link: https://www.facebook.com/players1st.web
+      icon: facebook
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Services"
+        links:
+        - text: Players1st
+          link: https://players1.st
+        - text: コインパス
+          link: https://coinpass.mystrikingly.com
+        - text: フットサルメット
+          link: https://futsal.mystrikingly.com/
