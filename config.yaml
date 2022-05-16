@@ -143,8 +143,8 @@ params:
     buttonText: 利用開始
     buttonLink: https://players1.st
   section4:
-    title: チーム
-    subtitle: スポーツの力を信じるメンバーが集まりました。
+    title: CEO Profile
+    subtitle:
     members:
     - name: Hiro Fukami
       jpName: 深海 寛信
@@ -160,16 +160,6 @@ params:
         icon: instagram
       - link: https://facebook.com/fukami
         icon: facebook
-    - name: Yuu Furuya
-      jpName: 古谷 遊
-      quote: ふるや弁当、フリーランスプログラマー。好きなスポーツ：サッカー、ミッドスキー
-      job: Engineer
-      img: furuya
-    - name: Saito
-      jpName: さいとう
-      quote: 青森を拠点とするライター、ブロガー
-      job: Customer Support, Promotion
-      img: saito
   section5: true
   section6:
     title: 私たちは、社会をより豊かにするために、インターネットとソフトウエアを使う、テクノロジーカンパニーです。

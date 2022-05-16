@@ -11,16 +11,16 @@
     {{ partial "section3.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.section6 }}
+    {{ partial "section6.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.section4 }}
     {{ partial "section4.html" . }}
     {{ end }}
 
     {{ if .Site.Params.section2 }}
     {{ partial "section2.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.section6 }}
-    {{ partial "section6.html" . }}
     {{ end }}
 
     {{ if .Site.Params.section5 }}
