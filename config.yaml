@@ -192,3 +192,30 @@ params:
           link: https://coinpass.mystrikingly.com
         - text: フットサルメット
           link: https://futsal.mystrikingly.com/
+  section7:
+    title: 沿革
+  footer:
+    # Logo (from /images/logos/___)
+    logo: logo-horizontal.png
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://www.instagram.com/players1st.web/
+      # Icons are from Font Awesome
+      icon: instagram
+    - link: https://twitter.com/pys1st
+      icon: twitter
+    - link: https://www.facebook.com/players1st.web
+      icon: facebook
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Services"
+        links:
+        - text: Players1st
+          link: https://players1.st
+        - text: コインパス
+          link: https://coinpass.mystrikingly.com
+        - text: フットサルメット
+          link: https://futsal.mystrikingly.com/
