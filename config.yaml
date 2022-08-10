@@ -35,9 +35,9 @@ params:
   formspreeID: mayvbdpl
   hero:
     # Main hero title
-    title: スポーツの力で世の中をより良くする
+    title: 心を揺さぶる力が世の中をより良くする
     # Hero subtitle (optional)
-    subtitle: 世界中のスポーツを愛する人々を支える最高のサービスを提供する
+    subtitle: 世の中をより良くするために行動する人を支える最高のサービスを提供する
     # Button text
     buttontext:
     # Where the main hero button links to
@@ -46,7 +46,7 @@ params:
     image: logos/logo-reverse.jpeg
     storyTitle: Players1stのミッション
     storyDescription:
-      Players1st（プレイヤーズファースト）は、アスリート、料理人、職人、アーティストなど人々の心を揺さぶることのできる人たちの価値を高め、より良く生きていくための環境を創ります。
+      Players1st（プレイヤーズファースト）は、アスリート、料理人、職人、アーティスト、社会的課題解決のために行動する人など、人々の心を揺さぶる人たちの価値を高め、より良く生きていくための環境を創ります。
       将来、子どもたちが創造的な職業を安心して選べるように、世の中をより良く変えていきます。
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:
@@ -107,7 +107,7 @@ params:
     - title: Players1st
       subtitle: スポーツファンディングサイト
       icon: p1st
-      text: Players1st（プレイヤーズファースト）は、経済的課題を抱える現役アスリートやクラブチームのために活動資金を募集するサービスです。月額スポンサー、メッセージ付投げ銭、ニュース掲載情報の自動検索配信など、選手活動に必要な課金・PR機能を提供しています。
+      text: Players1st（プレイヤーズファースト）は、アスリート、専門家、社会的課題解決のために行動する人が活動資金を募集するサービスです。月額スポンサー、メッセージ付き投げ銭、スポンサー限定投稿、スポンサーとのメッセージなどファンとつながり支援を募ります。
       url: https://players1.st
       buttonText: サービスサイト
     - title: コインパス
@@ -138,7 +138,7 @@ params:
       icon: clock
   section3:
     title: Players1st プレイヤーズファースト
-    subtitle: 現役アスリート・クラブチームのための月額スポンサー募集サイト
+    subtitle: 月額スポンサー募集サイト
     image: screenshots/top3.png
     buttonText: 利用開始
     buttonLink: https://players1.st
