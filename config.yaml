@@ -105,7 +105,7 @@ params:
     subtitle:
     tiles:
     - title: Players1st
-      subtitle: スポーツファンディングサイト
+      subtitle: 月額スポンサー募集サイト
       icon: p1st
       text: Players1st（プレイヤーズファースト）は、アスリート、専門家、社会的課題解決のために行動する人が活動資金を募集するサービスです。月額スポンサー、メッセージ付き投げ銭、スポンサー限定投稿、スポンサーとのメッセージなどファンとつながり支援を募ります。
       url: https://players1.st
@@ -124,7 +124,7 @@ params:
       buttonText: アプリ紹介サイト
   section2:
     title: 業務スタイル
-    subtitle: 一般的な業務形態は採用していません。「スポーツの力で世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
+    subtitle: 一般的な業務形態は採用していません。「心を揺さぶる力が世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
     features:
     - title: リモートワーク
       text: オフィスを持たないフルリモートワーク。現状メンバーは、東京、青森。基本オンラインコミュニケーションです。
@@ -148,7 +148,7 @@ params:
     members:
     - name: Hiro Fukami
       jpName: 深海 寛信
-      quote: 元 シリコンバレースタートアップ fluxflex, inc. 共同創業者。CEO、好きなスポーツ：フットサル、サッカー
+      quote: 元 シリコンバレースタートアップ fluxflex, inc. 共同創業者。フットサル(やるほう)、サッカー観戦が趣味
       job: 代表取締役社長, CEO, 創業者, Product Manager, Engineer
       img: fukami
       socialmedia:
