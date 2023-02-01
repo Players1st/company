@@ -1,6 +1,6 @@
 baseURL: https://company.players1.st
 languageCode: ja-jp
-title: 株式会社プレイヤーズファースト Players1st inc.
+title: 株式会社プレイヤーズファースト
 theme: fresh
 googleAnalytics: UA-73836462-3
 publishDir: "docs"
@@ -26,7 +26,7 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/logo-horizontal.png
+    image: logos/p1st_logo_v2_320x320.png
     link: /
   font:
     name: "Open Sans"
@@ -35,18 +35,18 @@ params:
   formspreeID: mayvbdpl
   hero:
     # Main hero title
-    title: 心を揺さぶる力が世の中をより良くする
+    title: 人の輝きが世の中をより良くする
     # Hero subtitle (optional)
-    subtitle: 世の中をより良くするために行動する人を支える最高のサービスを提供する
+    subtitle: 前に進もうとする人を支える最高のサービスを提供する
     # Button text
     buttontext:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: logos/logo-reverse.jpeg
-    storyTitle: Players1stのミッション
+    image: logos/p1st_logo_v2_320x320.png
+    storyTitle: P1stのミッション
     storyDescription:
-      Players1st（プレイヤーズファースト）は、アスリート、料理人、職人、アーティスト、社会的課題解決のために行動する人など、人々の心を揺さぶる人たちの価値を高め、より良く生きていくための環境を創ります。
+      P1st（プレイヤーズファースト）は、アスリート、ミュージシャン、アーティスト、クリエイティブな活動をしている個人など、人々の心を揺さぶる人たちの価値を高め、より良く生きていくための環境を創ります。
       将来、子どもたちが創造的な職業を安心して選べるように、世の中をより良く変えていきます。
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:
@@ -104,10 +104,10 @@ params:
     title: 事業内容
     subtitle:
     tiles:
-    - title: Players1st
-      subtitle: 月額スポンサー募集サイト
-      icon: p1st
-      text: Players1st（プレイヤーズファースト）は、アスリート、専門家、社会的課題解決のために行動する人が活動資金を募集するサービスです。月額スポンサー、メッセージ付き投げ銭、スポンサー限定投稿、スポンサーとのメッセージなどファンとつながり支援を募ります。
+    - title: P1st
+      subtitle: パーソナルファンディングサービス
+      icon: p1st_logo_v2_320x320
+      text: P1stは、アスリートやクリエイティブな活動をしている個人の活動資金を募集するサービスです。月額スポンサー募集や継続的にサポーターを増やすための機能が利用できます。
       url: https://players1.st
       buttonText: サービスサイト
     - title: コインパス
@@ -124,7 +124,7 @@ params:
       buttonText: アプリ紹介サイト
   section2:
     title: 業務スタイル
-    subtitle: 一般的な業務形態は採用していません。「心を揺さぶる力が世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
+    subtitle: 一般的な業務形態は採用していません。「人の輝きが世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
     features:
     - title: リモートワーク
       text: オフィスを持たないフルリモートワーク。現状メンバーは、東京、青森。基本オンラインコミュニケーションです。
@@ -137,9 +137,9 @@ params:
       text: ミッションとタスクによってドリブンさせるスタイルで、業務時間や業務規程はなし。
       icon: clock
   section3:
-    title: Players1st プレイヤーズファースト
-    subtitle: 月額スポンサー募集サイト
-    image: screenshots/top3.png
+    title: P1st プレイヤーズファースト
+    subtitle: 個人の可能性を引き上げるパーソナルファンディングサービス
+    image: screenshots/top.png
     buttonText: 利用開始
     buttonLink: https://players1.st
   section4:
@@ -148,7 +148,7 @@ params:
     members:
     - name: Hiro Fukami
       jpName: 深海 寛信
-      quote: 元 シリコンバレースタートアップ fluxflex, inc. 共同創業者。フットサル(やるほう)、サッカー観戦が趣味
+      quote: 元 シリコンバレースタートアップ fluxflex, inc. 共同創業者。フットサル、サッカー観戦が趣味
       job: 代表取締役社長, CEO, 創業者, Product Manager, Engineer
       img: fukami
       socialmedia:
@@ -186,7 +186,7 @@ params:
       column1:
         title: "Services"
         links:
-        - text: Players1st
+        - text: P1st
           link: https://players1.st
         - text: コインパス
           link: https://coinpass.mystrikingly.com
@@ -196,7 +196,7 @@ params:
     title: 沿革
   footer:
     # Logo (from /images/logos/___)
-    logo: logo-horizontal.png
+    logo: p1st_logo_v2_320x320.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -213,7 +213,7 @@ params:
       column1:
         title: "Services"
         links:
-        - text: Players1st
+        - text: P1st
           link: https://players1.st
         - text: コインパス
           link: https://coinpass.mystrikingly.com
