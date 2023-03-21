@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>株式会社プレイヤーズファースト</title>
-    <link>https://company.players1.st/</link>
+    <link>https://company.p1st.app/</link>
     <description>Recent content on 株式会社プレイヤーズファースト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://company.players1.st/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language><atom:link href="https://company.p1st.app/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
