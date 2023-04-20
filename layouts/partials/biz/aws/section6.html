@@ -1,0 +1,45 @@
+{{ $section := .Site.Params.awsTraining.section6 }}
+{{ $plans   := index $section "plans" }}
+
+<section class="section section-feature-grey">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">金額</h2>
+      <h3 class="subtitle is-5">期間や内容はお客様の状況に合わせてカスタマイズ可能です。別途お見積させていただきます。</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <div class="columns">
+        {{ range $plans }}
+        <div class="column">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-header-title">{{ .title }}</div>
+            </div>
+            <div class="card-content">
+              <div class="content title is-spaced is-primary has-text-weight-bold has-text-centered">
+                {{ .price }}
+                <span class="is-size-6">税込</span>
+              </div>
+              <div class="content subtitle has-text-centered">{{ .term }}</div>
+              <div class="content">{{ .description | safeHTML }}</div>
+              <div class="content">受講人数 {{ .number }}</div>
+              <div class="content">
+                <div class="has-text-weight-bold">対象</div>
+                <ul>
+                  {{ range .targets }}
+                  <li style="list-style: none;">{{ .content }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="content has-text-grey has-text-centered">
+        オンラインでの実施やAWS資格取得を追加したい場合のなど、ご要望があればお問い合わせよりお送りくださいませ。
+      </div>
+    </div>
+  </div>
+</section>

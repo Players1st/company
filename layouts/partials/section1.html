@@ -2,6 +2,7 @@
 {{- $title    := index $section1 "title" }}
 {{- $subtitle := index $section1 "subtitle" }}
 {{- $tiles    := index $section1 "tiles" }}
+{{- $tiles2    := index $section1 "tiles2" }}
 <section id="services" class="section section-feature-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
@@ -10,6 +11,7 @@
     </div>
 
     <div class="content-wrapper">
+      <h2 class="subtitle is-4 has-text-centered">自社サービス</h2>
       <div class="columns">
         {{- range $tiles }}
         <div class="column is-one-third">
@@ -21,7 +23,32 @@
               <h4>{{ .subtitle }}</h4>
             </div>
             <div class="card-icon">
-                <img src="{{ printf "/images/logos/%s.png" .icon | relURL }}">
+              <img src="{{ printf "/images/logos/%s.png" .icon | relURL }}">
+            </div>
+            <div class="card-text">
+                <p>{{ .text }}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+
+      <h2 class="subtitle is-4 has-text-centered">企業向けサービス</h2>
+      <div class="columns">
+        {{- range $tiles2 }}
+        <div class="column is-half is-offset-one-quarter">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>{{ .title }}</h4>
+            </div>
+            <div class="card-subtitle">
+              <h4>{{ .subtitle }}</h4>
+            </div>
+            <div class="card-icon">
+              <img src="{{ printf "/images/biz/%s.png" .icon | relURL }}">
             </div>
             <div class="card-text">
                 <p>{{ .text }}</p>

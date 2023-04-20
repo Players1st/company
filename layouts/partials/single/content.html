@@ -7,9 +7,23 @@
         <div class="divider"></div>
       </div>
     </div>
-
-    <div class="content">
-      {{ .Content }}
-    </div>
   </div>
 </section>
+{{ if .Params.image }}
+<div class="image">
+  <img src="{{ .Params.Image }}">
+</div>
+{{ end }}
+
+{{ if .Params.aws_training }}
+  {{ partial "biz/aws/section1.html" . }}
+  {{ partial "biz/aws/section2.html" . }}
+  {{ partial "biz/aws/section3.html" . }}
+  {{ partial "biz/aws/section4.html" . }}
+  {{ partial "biz/aws/section5.html" . }}
+  {{ partial "biz/aws/section6.html" . }}
+  {{ partial "biz/aws/contact.html" . }}
+  {{ .Content }}
+{{ else }}
+  {{ .Content }}
+{{ end }}

@@ -1,0 +1,76 @@
+{{- $section := .Site.Params.awsTraining.section2 }}
+{{- $contents    := index $section "contents" }}
+
+<section class="section section-secondary">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced has-text-white">なぜ弊社が選ばれるのか</h2>
+      <h3 class="subtitle is-5 has-text-white">
+        実績に裏付けられた経験値が違います
+      </h3>
+    </div>
+    <div class="content-wrapper">
+      <div class="card">
+        <div class="card-content">
+          {{- range $contents }}
+          <div class="content">
+            <div class="title is-4">{{ .title }}</div>
+            <div>{{ .description | safeHTML }}
+            </div>
+          </div>
+          {{ end }}
+          <div class="content">
+            このノウハウがあるからこそ実際の研修内容に反映でき、実践的な研修が開催できるのです。
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="columns card-icon has-text-centered content">
+            <div class="column is-2 is-offset-1">
+              <h1 class="icon" style="color: #F39200;">
+                <i class="fa-brands fa-aws fa-xl"></i>
+              </h1>
+              <div style="color: #F39200;">AWS</div>
+            </div>
+            <div class="column is-2">
+              <h1 class="icon has-text-grey-light">
+                <i class="fa-solid fa-xmark fa-lg"></i>
+              </h1>
+            </div>
+            <div class="column is-2">
+              <h1 class="icon has-text-success">
+                <i class="fa-solid fa-code fa-xl"></i>
+              </h1>
+              <div class="has-text-success">開発</div>
+            </div>
+            <div class="column is-2">
+              <h1 class="icon has-text-grey-light">
+                <i class="fa-solid fa-xmark fa-lg"></i>
+              </h1>
+            </div>
+            <div class="column is-2">
+              <h1 class="icon has-text-info">
+                <i class="fa-solid fa-server fa-xl"></i>
+              </h1>
+              <div class="has-text-info">運営</div>
+            </div>
+          </div>
+          <div class="columns has-text-centered content">
+            <div class="column">
+              <h1 class="icon has-text-grey-light">
+                <i class="fa-solid fa-equals fa-xl fa-rotate-90"></i>
+              </h1>
+            </div>
+          </div>
+          <div class="columns has-text-centered content">
+            <div class="column">
+              <h1 class="icon has-text-link is-large">
+                <i class="fa-solid fa-chalkboard-user fa-2xl"></i>
+              </h1>
+              <div class="has-text-link">実践研修</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

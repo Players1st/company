@@ -1,0 +1,74 @@
+{{ $section4 := .Site.Params.section4 }}
+{{ $members  := index $section4 "members" }}
+{{ $section := .Site.Params.awsTraining.section5 }}
+{{ $books    := index $section "books" }}
+{{ $works    := index $section "works" }}
+
+<section class="section section-primary">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 light-text is-spaced">講師プロフィール</h2>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image content is-128x128" style="margin: auto; padding: 10px;">
+                <img class="is-rounded" src="/images/team/fukami.png" alt="講師 深海寛信"/>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content has-text-centered">
+                <div class="title is-3">
+                  深海 寛信<br>
+                  <span class="title is-5">Hiro Fukami</span>
+                </div>
+              </div>
+              <div class="content has-text-centered">
+                <div class="is-size5 is-primary has-text-weight-bold">
+                  ソフトウエアエンジニア、プロダクトマネージャー
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  アメリカ法人含め3社を立ち上げ、新規プロダクトを多数リリース。プロダクトマネジメントをしつつ自らもエンジニアとして開発に携わる。
+                  ネットワーク・インフラからWebアプリ、スマホアプリ開発まで幅広く対応する。
+                </p>
+                <p>
+                  AWSの新機能をいち早く試した実績が評価されAWS入門本を共著
+                </p>
+                <div class="has-text-weight-bold">著書</div>
+                <ul>
+                  {{ range $books }}
+                    <li style="list-style: none;">{{ .title }}</li>
+                  {{ end }}
+                </ul>
+                <div class="has-text-weight-bold">研修実績</div>
+                <ul>
+                  {{ range $works }}
+                    <li style="list-style: none;">{{ .title }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+              <nav class="level is-mobile">
+                <div class="level-left">
+                  {{ range $index, $element := $members }}
+                    {{ if eq $index 0 }}
+                      {{ range $element.socialmedia }}
+                      <a class="level-item is-secondary" href="{{ .link }}">
+                        <span class="icon"><i class="fa-brands fa-{{ .icon }}"></i></span>
+                      </a>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
