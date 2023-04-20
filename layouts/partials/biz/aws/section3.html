@@ -1,0 +1,28 @@
+{{- $section := .Site.Params.awsTraining.section3 }}
+{{- $contents    := index $section "contents" }}
+
+<section class="section section-light-grey">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">研修内容 演習課題 一例</h2>
+      <h3 class="subtitle is-5 is-muted">実際に研修の中で行った演習課題の一例です</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <div class="columns">
+        {{ range $contents }}
+        <div class="column">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-header-title">{{ .title }}</div>
+            </div>
+            <div class="card-content">
+              <div class="content">{{ .description | safeHTML }}</div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

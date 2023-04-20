@@ -33,6 +33,7 @@ params:
     sizes: [400,600]
   googleRecaptchaKey: 6LcU1ukeAAAAADHPVVE3dpOLhFnZPOzZY1z7UZsa
   formspreeID: mayvbdpl
+  formspreeAWSID: xgebrvyl
   hero:
     # Main hero title
     title: 人の輝きが世の中をより良くする
@@ -122,6 +123,13 @@ params:
       text: フットサルで人を集めたい人と参加したい人をつなぐアプリです。メンバー募集は、日時、コートの場所、募集人数を指定して作成するだけ。参加したい人は、募集一覧から参加申し込みをするだけ。募集人数が集まったら開催決定です。広告なしのシンプルなデザインで簡単に使えます。
       url: https://futsal.mystrikingly.com/
       buttonText: アプリ紹介サイト
+    tiles2:
+    - title: AWSエンジニア育成研修
+      subtitle: 現場で使うためのAWS・インフラエンジニア実践研修
+      icon: aws-training
+      text: 概要講義からハンズオン研修まで「創れるエンジニア」になるための実践的な研修を行います。SES、システムインテグレータ企業へAWS認定資格取得、AWS研修、DevOps研修などの実績があります。
+      url: /aws-training
+      buttonText: サービス紹介
   section2:
     title: 業務スタイル
     subtitle: 一般的な業務形態は採用していません。「人の輝きが世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
@@ -167,33 +175,124 @@ params:
     address: 東京都世田谷区
     publish: 2016年3月
     ceo: 深海寛信
-  footer:
-    # Logo (from /images/logos/___)
-    logo: logo-horizontal.png
-    # Social Media Title
-    socialmediatitle: Follow Us
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://www.instagram.com/players1st.web/
-      # Icons are from Font Awesome
-      icon: instagram
-    - link: https://twitter.com/pys1st
-      icon: twitter
-    - link: https://www.facebook.com/players1st.web
-      icon: facebook
-    bulmalogo: false
-    quicklinks:
-      column1:
-        title: "Services"
-        links:
-        - text: P1st
-          link: https://p1st.app
-        - text: コインパス
-          link: https://coinpass.mystrikingly.com
-        - text: フットサルメット
-          link: https://futsal.mystrikingly.com/
   section7:
     title: 沿革
+
+  awsTraining:
+    section1:
+      contents:
+        - title: 実践する力をつける
+          subtitle: 作り上げられてこそ価値がある
+          color: "#F39200"
+          icon: fa-brands fa-aws
+          description: AWSを単に知っているだけではなく<span class="has-text-weight-bold">「操作してシステムを作り上げること」</span>を重視したカリキュラムです。
+        - title: AWS主要機能を網羅
+          subtitle: よく利用するサービスを確実に理解する
+          color: "#23d160"
+          icon: fa-solid fa-table
+          description: 数あるAWSのサービスから、現場でよく利用されるものに対して確実に理解を深め、実践演習を行います。
+        - title: 現場を想定した演習課題
+          subtitle: 要件に対して正しく構築して説明する
+          color: "#209cee"
+          icon: fa-solid fa-person-chalkboard
+          description: 課題の要件を満たすようにAWSで構築し、その成果をプレゼンテーションしていただきます。
+        - title: カスタマイズ
+          subtitle: 最適なアプローチが最も早く成長できます
+          color: "#3273dc"
+          icon: fa-solid fa-arrow-up-right-dots
+          description: 研修内容のカスタマイズにも対応しています。開催日程や期間も柔軟に対応できます。
+    section2:
+      contents:
+        - title: 研修の専門家ではなくプロダクト開発を行っているから
+          description: 研修の専門家は現場の経験が乏しくなり、<span class="has-text-weight-bold">実際にはどう使われているのかの情報が研修に反映されにくくなります</span>。どうしても知識中心、講義中心になる傾向があります。
+        - title: AWS資格取得だけではない実践研修だから
+          description: また、AWS資格取得を主目的とすると、暗記中心の実践力の乏しい研修となり、資格を有していて現場で対応できずに顧客からの信頼を損ねることがあります。
+        - title: プロダクト開発と運営を長年継続しているから
+          description: 弊社は自社サービスの開発・運営で培った長年の経験をもとに、<span class="has-text-weight-bold">実際に現場で使っているAWSの利用方法や求められる要件を知っています</span>。
+    section3:
+      contents:
+        - title: EC2
+          description: "<p>あるWebシステムをAWS上で構築します。顧客から以下の要望を提示されました。要望を満たすEC2の設定を行ってください。</p>
+                <ul>
+                  <li>Webサーバーは起動時に最新のソースをデプロイしてほしい。Git利用</li>
+                  <li>Webサーバーは port 8080 番でリッスン。MySQL port 3306 に接続</li>
+                  <li>監視はできるだけ頻度高く、多くの項目をモニターしたい</li>
+                  <li>
+                    Webサーバーは複数台で分散しAuto Scaling利用予定、適切なEC2インスタンスタイプとスペックの提案
+                  </li>
+                </ul>"
+        - title: IAM
+          description: "<p>AWSを用いたシステムで以下の利用者を想定しています。IAMを使ってそれぞれ適切なユーザー・グループを作成してください。</p>
+                <ul>
+                  <li>顧客 : 支払者、システム管理者</li>
+                  <li>ソフトウエア開発会社 : デプロイするソースコードを納品、インフラの設定は行わない</li>
+                  <li>インフラ事業者 : インフラ構築の外注先</li>
+                  <li>システム運用事業者 : システム運用・障害対応・監視を行う外注先</li>
+                </ul>"
+        - title: オートスケーリング
+          description: "<p>Auto Scaling を使って EC2 がスケールアウト・スケールインする環境を構築してください。</p>
+                <p>なるべく「落ちない環境」を実現するための設定をしてみてください。</p>
+                <p>発表時にスケーリングのデモができるよう、閾値の内容を考慮してください。</p>"
+    section4:
+      contents:
+        - title: AWS資格取得
+          description: '<p>研修期間内に以下の資格を取得</p>
+              <div class="tag">テクニカルプロフェッショナル</div>
+              <div class="tag">ビジネスプロフェッショナル</div>
+              <div class="tag">クラウドプラクティショナー</div>
+              <div class="tag">ソリューションアーキテクト アソシエイト</div>'
+        - title: 課題演習
+          description: '<p>対象AWSサービス</p>
+                <span class="tag">IAM</span>
+                <span class="tag">EC2</span>
+                <span class="tag">S3</span>
+                <span class="tag">VPC</span>
+                <span class="tag">ELB</span>
+                <span class="tag">RDS</span>
+                <span class="tag">Route53</span>
+                <span class="tag">CloudFront</span>
+                <span class="tag">SNS/SES</span>
+                <span class="tag">Lambda</span>
+                <span class="tag">CloudFormation</span>'
+        - title: 最終課題演習
+          description: '<p>一般的な LAMP + AutoScaling 構成を構築</p>
+                <p>顧客への成果物としてシステム構成図の作成、動作確認のデモをプレゼンテーションを実施</p><p>講師からプレゼンテーションに対するフィードバックを行う。</p>'
+    section5:
+      books:
+        - title: 2023年「ひとりスタートアップ」
+        - title: 2014年「WordPressプロフェッショナル養成読本」技術評論社 AWSの章を担当
+        - title: 2010年「よくわかるAmazonEC2/S3入門」技術評論社
+      works:
+        - title: 東証一部上場企業などのエンジニア育成のための研修・講義の実績あり
+        - title: SES企業 エンジニア向け AWS資格取得＆実践研修
+        - title: NTTグループ企業 エンジニア向け Chef実践研修
+        - title: NTTグループ企業 エンジニア勉強会講師
+    section6:
+      plans:
+        - title: 演習課題 1日
+          term: 1日間 (8時間/日)
+          description: '現場で求められる要件を想定した演習課題から最終演習課題のみ実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 1'
+          number: 5〜20名
+          targets:
+            - content: AWS主要サービスの理解があること
+            - content: Linux、データベース、インターネットへの基本的な理解ができていること
+          price: 168,000円
+        - title: 演習課題 主要サービス対象
+          term: 3日間 (8時間/日)
+          description: '現場で求められる要件を想定した主要AWSサービスへの演習課題の実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 10程度(当日の進み具合によって前後します)'
+          number: 5〜30名
+          targets:
+            - content: AWS主要サービスの理解があること
+            - content: Linux、データベース、インターネットへの基本的な理解ができていること
+          price: 418,000円
+        - title: AWS主要サービス講義 + 演習課題
+          term: 20日間 (4週間 8時間/日)
+          description: 'AWS主要サービス講義の実施<br>現場で求められる要件を想定した演習課題の実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 15程度(当日の進み具合によって前後します)'
+          number: 5〜40名
+          price: 194万円
+          targets:
+            - content: Linux、データベース、インターネットへの基本的な理解ができていること
+
   footer:
     # Logo (from /images/logos/___)
     logo: p1st_logo_v2_320x320.png
@@ -201,11 +300,12 @@ params:
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://www.instagram.com/players1st.web/
-      # Icons are from Font Awesome
-      icon: instagram
     - link: https://twitter.com/pys1st
       icon: twitter
+    - link: https://www.instagram.com/players1st.web/
+      icon: instagram
+    - link: https://youtube.com/@p1st
+      icon: youtube-play
     - link: https://www.facebook.com/players1st.web
       icon: facebook
     bulmalogo: false
@@ -219,3 +319,5 @@ params:
           link: https://coinpass.mystrikingly.com
         - text: フットサルメット
           link: https://futsal.mystrikingly.com/
+        - text: AWSエンジニア育成研修
+          link: /aws-training

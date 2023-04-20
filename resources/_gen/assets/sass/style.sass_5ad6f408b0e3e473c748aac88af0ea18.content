@@ -6518,7 +6518,7 @@ Classes to change the feel of bulma buttons
 Cards and Card content styles
 ========================================================================== */
 .feature-card {
-  width: 300px;
+  width: auto;
   background-color: #fff;
   border-radius: 3px;
   margin: 0 auto; }

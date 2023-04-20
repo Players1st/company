@@ -1,0 +1,32 @@
+{{- $section := .Site.Params.awsTraining.section4 }}
+{{- $contents    := index $section "contents" }}
+
+<section class="section section-feature-grey">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">事例</h2>
+      <h3 class="subtitle is-5 is-muted">AWSエンジニア育成研修</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <div class="content">
+        AWS資格取得、ハンズオン・課題演習、最終課題演習を実施し成果物を発表。<br>
+        期間: 3ヶ月
+      </div>
+      <div class="columns">
+        {{ range $contents }}
+        <div class="column">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-header-title">{{ .title }}</div>
+            </div>
+            <div class="card-content">
+              <div class="content">{{ .description | safeHTML }}</div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
