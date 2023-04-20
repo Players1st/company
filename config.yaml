@@ -23,7 +23,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description:
+  description: クリエイターのための月額スポンサー募集サービス「P1st」の開発運営と企業向けAWSエンジニア育成研修を行っています。
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/p1st_logo_v2_320x320.png
