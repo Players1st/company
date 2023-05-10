@@ -22,6 +22,7 @@ sitemap:
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
+  title: 株式会社プレイヤーズファースト
   # Used as meta data; describe your site to make Google Bots happy
   description: クリエイターのための月額スポンサー募集サービス「P1st」の開発運営と企業向けAWSエンジニア育成研修を行っています。
   navbarlogo:
