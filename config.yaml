@@ -124,12 +124,25 @@ params:
       text: フットサルで人を集めたい人と参加したい人をつなぐアプリです。メンバー募集は、日時、コートの場所、募集人数を指定して作成するだけ。参加したい人は、募集一覧から参加申し込みをするだけ。募集人数が集まったら開催決定です。広告なしのシンプルなデザインで簡単に使えます。
       url: https://futsal.mystrikingly.com/
       buttonText: アプリ紹介サイト
+    - title: オキニ
+      subtitle: 買い忘れ防止アプリ
+      icon: okini
+      text: 「オキニ」は、切れては困る日用品の買い忘れをなくす、お買い物サポートアプリです。ちょうどよい次回購入時にお知らせして注文できます。
+      url: https://okini.mystrikingly.com/
+      buttonText: アプリ紹介サイト
     tiles2:
     - title: AWSエンジニア育成研修
       subtitle: 現場で使うためのAWS・インフラエンジニア実践研修
       icon: aws-training
       text: 概要講義からハンズオン研修まで「創れるエンジニア」になるための実践的な研修を行います。SES、システムインテグレータ企業へAWS認定資格取得、AWS研修、DevOps研修などの実績があります。
       url: /aws-training
+      buttonText: サービス紹介
+    tiles3:
+    - title: JobLog ジョブログ
+      subtitle: 職歴プロフィールPRサイト
+      icon: joblog
+      text: 職歴を登録して公開できます。あなただけの職歴プロフィールページを作ってビジネスをPRしましょう
+      url: https://joblog-5f4ba.web.app/
       buttonText: サービス紹介
   section2:
     title: 業務スタイル
