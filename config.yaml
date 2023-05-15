@@ -142,7 +142,7 @@ params:
       subtitle: 職歴プロフィールPRサイト
       icon: joblog
       text: 職歴を登録して公開できます。あなただけの職歴プロフィールページを作ってビジネスをPRしましょう
-      url: https://joblog-5f4ba.web.app/
+      url: https://joblog.p1st.app/
       buttonText: サービス紹介
   section2:
     title: 業務スタイル
