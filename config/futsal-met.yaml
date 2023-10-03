@@ -1,0 +1,36 @@
+params:
+  futsalMet:
+    section1:
+      title: 便利な機能でより楽しく、豊かなフットサルライフを
+      contents:
+        - title: フレンド
+          subtitle: 仲間をつくる、つながる
+          color: "#ff1493"
+          icon: fa-solid fa-people-group
+          description: 一緒に蹴った人とフレンドになって仲間の輪を広げることができます。QRコードをカメラで読み取るだけでフレンド同士になれる、簡単フレンド追加
+        - title: タイムライン
+          subtitle: 今をチェック
+          color: "#0000cd"
+          icon: fa-solid fa-bars-staggered
+          description: 蹴った、イベント募集、フレンドが増えたなど、フレンドの近況をチェックできます。いいねをすると相手のタイムラインにお知らせされます。
+        - title: イベントを作る・参加する
+          subtitle: メンバーを募集したい人と蹴りたい人をつなぐ
+          color: "#ff8c00"
+          icon: fa-regular fa-calendar-check
+          description: 誰でもイベントを作って参加者を募集できます。参加は募集中のイベントを見つけて、参加ボタンを押すだけの簡単操作。メンバーが足りない時など困った時にも使えます。
+        - title: 蹴った⚽を残す
+          subtitle: 履歴を残せます
+          color: "#32cd32"
+          icon: fa-solid fa-futbol
+          description: 今までの蹴った思い出をためていきましょう。一緒に蹴った参加者同士も確認できるので、一緒に蹴った人同士でフレンドになりやすくなります。
+        - title: お気に入りのコート
+          subtitle: よく使うコートを保存できます
+          color: "#ff0000"
+          icon: fa-solid fa-map-pin
+          description: 同じコートを登録しているユーザーも確認できるので、フレンドが増やしやすくなります。
+        - title: 有料プラン
+          subtitle: さらに楽しく便利に使うためのの機能
+          color: "#35a535"
+          icon: fa-regular fa-square-check
+          description: 蹴った時の振り返りプライベートメモの作成など、より便利に使うための機能が使えます。
+
