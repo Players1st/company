@@ -1,5 +1,6 @@
 params:
   futsalMet:
+    formspreeID: moqoppba
     downloadLink:
       iOS: "https://itunes.apple.com/jp/app/id1539104393?mt=8"
       Android: "https://play.google.com/store/apps/details?id=st.players1.Futsal_Kakekomi"
@@ -69,7 +70,7 @@ params:
           color: "#808080"
           icon: fa-solid fa-table-list
     section5:
-      title: 広告なし
+      title: 広告はありません
       subtitle: 快適に使ってほしいから
       contents:
       - image: "/images/apps/futsalmet/screenshots/message.png"
@@ -80,7 +81,7 @@ params:
         imageAlt: イベント
     section6:
       title: 有料プラン
-      subtitle: より便利に楽しく使うための機能があります
+      subtitle: より便利に楽しく使うための機能があります<br>アプリ内課金にて提供中
       paidPlan:
         - image: "/images/apps/futsalmet/screenshots/subscription_standard_plan.png"
           imageAlt: 有料プラン メニュー
