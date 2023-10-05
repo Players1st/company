@@ -122,7 +122,7 @@ params:
       subtitle: フットサル専用メンバー募集アプリ
       icon: futsalmet
       text: フットサルで人を集めたい人と参加したい人をつなぐアプリです。メンバー募集は、日時、コートの場所、募集人数を指定して作成するだけ。参加したい人は、募集一覧から参加申し込みをするだけ。募集人数が集まったら開催決定です。広告なしのシンプルなデザインで簡単に使えます。
-      url: https://futsal.mystrikingly.com/
+      url: /futsal-met
       buttonText: アプリ紹介サイト
     - title: オキニ
       subtitle: 買い忘れ防止アプリ
@@ -329,9 +329,9 @@ params:
         links:
         - text: P1st
           link: https://p1st.app
+        - text: フットサルメット
+          link: /futsal-met
         - text: コインパス
           link: https://coinpass.mystrikingly.com
-        - text: フットサルメット
-          link: https://futsal.mystrikingly.com/
         - text: AWSエンジニア育成研修
           link: /aws-training
