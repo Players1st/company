@@ -25,6 +25,8 @@ params:
   title: 株式会社プレイヤーズファースト
   # Used as meta data; describe your site to make Google Bots happy
   description: クリエイターのための月額スポンサー募集サービス「P1st」の開発運営と企業向けAWSエンジニア育成研修を行っています。
+  images:
+  - /images/logos/p1st_logo_v2_320x320.png
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/p1st_logo_v2_320x320.png
