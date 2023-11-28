@@ -121,10 +121,16 @@ params:
       url: https://coinpass.mystrikingly.com/
       buttonText: アプリ紹介サイト
     - title: フットサルメット
-      subtitle: フットサル専用メンバー募集アプリ
+      subtitle: フットサルSNSアプリ
       icon: futsalmet
-      text: フットサルで人を集めたい人と参加したい人をつなぐアプリです。メンバー募集は、日時、コートの場所、募集人数を指定して作成するだけ。参加したい人は、募集一覧から参加申し込みをするだけ。募集人数が集まったら開催決定です。広告なしのシンプルなデザインで簡単に使えます。
+      text: フットサルを楽しむ人のための「フットサルSNSアプリ」。一緒に蹴れるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなフットサルライフを支えます。
       url: /futsal-met
+      buttonText: アプリ紹介サイト
+    - title: サッカーメット
+      subtitle: サッカーSNSアプリ
+      icon: footballmet
+      text: サッカーを楽しむ人のための「サッカーSNSアプリ」。一緒に蹴れるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなフットボールライフを支えます。
+      url: /football-met
       buttonText: アプリ紹介サイト
     - title: オキニ
       subtitle: 買い忘れ防止アプリ
@@ -333,6 +339,8 @@ params:
           link: https://p1st.app
         - text: フットサルメット
           link: /futsal-met
+        - text: サッカーメット
+          link: /football-met
         - text: コインパス
           link: https://coinpass.mystrikingly.com
         - text: AWSエンジニア育成研修

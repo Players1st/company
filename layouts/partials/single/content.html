@@ -33,6 +33,15 @@
   {{ partial "apps/futsal/section2.html" . }}
   {{ partial "apps/futsal/contact.html" . }}
   {{ .Content }}
+{{ else if .Params.football_met }}
+  {{ partial "apps/football/section4.html" . }}
+  {{ partial "apps/football/section2.html" . }}
+  {{ partial "apps/football/section1.html" . }}
+  {{ partial "apps/football/section3.html" . }}
+  {{ partial "apps/football/section5.html" . }}
+  {{ partial "apps/football/section2.html" . }}
+  {{ partial "apps/football/contact.html" . }}
+  {{ .Content }}
 {{ else }}
   {{ .Content }}
 {{ end }}
