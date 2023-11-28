@@ -6,4 +6,5 @@ include_footer: true
 futsal_met: true
 images:
 - '/images/apps/futsalmet/header_futsalmet.png'
+image: '/images/apps/futsalmet/header_futsalmet.png'
 ---

@@ -1,0 +1,35 @@
+{{- $section := .Site.Params.footballMet.section1 }}
+{{- $title    := index $section "title" }}
+{{- $contents    := index $section "contents" }}
+
+<section class="section section-feature-grey">
+    <div class="container">
+        <div class="title-wrapper has-text-centered">
+            <h2 class="title is-2 is-spaced">特徴</h2>
+            <h3 class="subtitle is-5">
+                {{- $title }}
+            </h3>
+            <div class="divider is-centered"></div>
+        </div>
+        <div class="content-wrapper">
+            <div class="columns is-multiline">
+                {{- range $contents }}
+                <div class="column is-half">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <div class="title is-spaced">{{ .title }}</div>
+                            <div class="subtitle">{{ .subtitle }}</div>
+                        </div>
+                        <div class="card-image">
+                            <h1 class="icon is-large" style="color: {{ .color }};">
+                                <i class="{{ .icon }} fa-2x" style="font-size: 4em;"></i>
+                            </h1>
+                        </div>
+                        <div class="card-content">{{ .description | safeHTML }}</div>
+                    </div>
+                </div>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+</section>

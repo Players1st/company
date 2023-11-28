@@ -1,0 +1,87 @@
+params:
+  footballMet:
+    formspreeID: xpzggreo
+    downloadLink:
+      iOS: "https://itunes.apple.com/jp/app/id6472140163?mt=8"
+      Android: "https://play.google.com/store/apps/details?id=st.players1.FootballMet"
+    section1:
+      title: 便利な機能でより楽しく、豊かなサッカーライフを
+      contents:
+        - title: フレンド
+          subtitle: 仲間をつくる、つながる
+          color: "#ff1493"
+          icon: fa-solid fa-people-group
+          description: <b>「一緒に蹴った人と繋がりにくい。。」</b>を解決します。よく使うコートや一緒に参加したイベントから仲間を見つけられます。一緒に蹴った人とフレンドになって仲間の輪を広げましょう👍
+        - title: タイムライン
+          subtitle: 近況やお知らせをチェック
+          color: "#0000cd"
+          icon: fa-solid fa-bars-staggered
+          description: 蹴った、イベント募集、フレンドが増えたなど、フレンドの近況をチェックできます。いいねをすると相手のタイムラインにお知らせされます。いいねし合うとサッカーライフがよりポジティブになります❤️
+        - title: イベントを作る・参加する
+          subtitle: メンバーを募集したい人と蹴りたい人をつなぐ
+          color: "#ff8c00"
+          icon: fa-regular fa-calendar-check
+          description: 誰でもイベントを作って参加者を募集できます。参加は募集中のイベントを見つけて、参加ボタンを押すだけの簡単操作。<b>「メンバーが足りない。。」</b>など困った時にも呼びかけられます📣
+        - title: 蹴った⚽を残す
+          subtitle: 履歴を残せます
+          color: "#32cd32"
+          icon: fa-solid fa-futbol
+          description: 今までの蹴った思い出を残せます。一緒に蹴った参加者も確認できるので、一緒に蹴った人同士でフレンドになりやすくなります。蹴った時の振り返りメモがプライベートメモとして保存できます(有料プラン)
+    section3:
+      contents:
+        - title: 仲間を増やす
+          subtitle: QRコードを読み取るだけの簡単フレンド追加
+          description: 一緒に蹴った人とフレンドになって、仲間の輪を広げましょう。フレンド追加は、QRコードを読み取る方法とプロフィールから申請する方法があります
+          image: "/images/apps/futsalmet/screenshots/friend_qr_code.png"
+          imageAlt: QRコードでフレンド追加
+          reverse: true
+        - title: タイムライン
+          subtitle: 最新情報をキャッチ
+          description: 蹴った時、イベントを募集した時、フレンドが増えた時など、フレンド同士の近況をチェックできます
+          image: "/images/apps/footballmet/screenshots/timeline_view.png"
+          imageAlt: タイムライン
+        - title: イベント作成、参加
+          subtitle: 誰でも募集、誰でも参加
+          description: 日時とコートを入力して素早く募集。「メンバーが足りない」「もっと仲間を増やしたい」時などにも使えます
+          image: "/images/apps/futsalmet/screenshots/form.png"
+          imageAlt: イベント作成
+          reverse: true
+        - title: お気に入りコート
+          subtitle: よく使うコートを保存
+          description: 同じコートや近くのコートなど、関連のありそうなコートを利用しているユーザーを見つけて、フレンドを増やしやすくなります
+          image: "/images/apps/footballmet/screenshots/place_detail.png"
+          imageAlt: お気に入りコート
+    section4:
+      contents:
+        - title: 一緒に蹴った人ともっと仲良くなりたい
+          subtitle: 一緒に蹴っても知り合いになりづらい。もっと気軽に仲良くなりたい
+          color: "#808080"
+          icon: fa-regular fa-heart
+        - title: メンバーが足りない
+          subtitle: 場所を予約したのに思ったよりも集まらなかった、、一緒に蹴れる人を集めたい
+          color: "#808080"
+          icon: fa-regular fa-face-frown
+        - title: 気軽に参加したい
+          subtitle: ひとりでも自分の都合に合わせて気軽に参加したい
+          color: "#808080"
+          icon: fa-solid fa-person-running
+        - title: 蹴ったことを残しておきたい
+          subtitle: せっかく蹴ったのだから、日時や場所など保存して貯めたい、振り返りたい
+          color: "#808080"
+          icon: fa-solid fa-table-list
+    section5:
+      title: 広告はありません
+      subtitle: 快適に使ってほしいから
+      contents:
+        - image: "/images/apps/futsalmet/screenshots/message.png"
+          imageAlt: メッセージ交換
+        - image: "/images/apps/footballmet/screenshots/place_search.png"
+          imageAlt: マップからコートを検索
+        - image: "/images/apps/footballmet/screenshots/event.png"
+          imageAlt: イベント
+    section6:
+      title: 有料プラン
+      subtitle: より便利に楽しく使うための機能があります<br>アプリ内課金にて提供中
+      paidPlan:
+        - image: "/images/apps/futsalmet/screenshots/subscription_standard_plan.png"
+          imageAlt: 有料プラン メニュー

@@ -333,6 +333,8 @@ params:
           link: https://p1st.app
         - text: フットサルメット
           link: /futsal-met
+        - text: サッカーメット
+          link: /football-met
         - text: コインパス
           link: https://coinpass.mystrikingly.com
         - text: AWSエンジニア育成研修
