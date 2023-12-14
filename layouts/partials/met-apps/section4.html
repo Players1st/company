@@ -1,0 +1,122 @@
+{{ $playString := "蹴った" }}
+{{ $placeString := "コート" }}
+
+{{ if .Params.futsal_met }}
+    {{ $playString = .Site.Params.metApps.futsalMet.playingString }}
+    {{ $placeString = .Site.Params.metApps.futsalMet.placeString }}
+{{ else if .Params.football_met }}
+    {{ $playString = .Site.Params.metApps.footballMet.playingString }}
+    {{ $placeString = .Site.Params.metApps.footballMet.placeString }}
+{{ else if .Params.baseball_met }}
+    {{ $playString = .Site.Params.metApps.baseballMet.playingString }}
+    {{ $placeString = .Site.Params.metApps.baseballMet.placeString }}
+{{ end }}
+
+<section class="section section-light-grey">
+    <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2 is-spaced">こんなことありませんか？</h2>
+        <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+        <div class="columns is-multiline">
+
+            <div class="column is-half">
+                <div class="card has-text-centered"
+                     style="border: 5px solid green; border-radius: 40px; padding: 10px;">
+                    <div class="card-content">
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <h1 class="icon is-large"
+                                    style="color: #808080; margin: 15px;">
+                                    <i class="fa-regular fa-heart fa-2x" style="font-size: 4em;"></i>
+                                </h1>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">一緒に{{ $playString }}人ともっと仲良くなりたい</span>
+                                        <span class="icon-box-text">一緒に{{ $playString }}のに知り合いになりづらい。もっと気軽に仲良くなりたい</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-half">
+                <div class="card has-text-centered"
+                     style="border: 5px solid green; border-radius: 40px; padding: 10px;">
+                    <div class="card-content">
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <h1 class="icon is-large"
+                                    style="color: #808080; margin: 15px;">
+                                    <i class="fa-regular fa-face-frown fa-2x" style="font-size: 4em;"></i>
+                                </h1>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">メンバーが足りない</span>
+                                        <span class="icon-box-text">{{ $placeString }}を予約したのに思ったよりも集まらなかった、、人を集めたい</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-half">
+                <div class="card has-text-centered"
+                     style="border: 5px solid green; border-radius: 40px; padding: 10px;">
+                    <div class="card-content">
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <h1 class="icon is-large"
+                                    style="color: #808080; margin: 15px;">
+                                    <i class="fa-solid fa-person-running fa-2x" style="font-size: 4em;"></i>
+                                </h1>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">気軽に参加したい</span>
+                                        <span class="icon-box-text">ひとりでも自分の都合に合わせて気軽に参加したい</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-half">
+                <div class="card has-text-centered"
+                     style="border: 5px solid green; border-radius: 40px; padding: 10px;">
+                    <div class="card-content">
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <h1 class="icon is-large"
+                                    style="color: #808080; margin: 15px;">
+                                    <i class="fa-solid fa-table-list fa-2x" style="font-size: 4em;"></i>
+                                </h1>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">{{ $playString }}ことを残しておきたい</span>
+                                        <span class="icon-box-text">せっかく{{ $playString }}のだから、日時や場所など保存して貯めたい、振り返りたい</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>

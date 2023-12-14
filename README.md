@@ -4,11 +4,11 @@
 
 複数の config ファイルを用意しているので、 `hugo server` 時にオプションを付ける必要がある。
 
-`% hugo server --config config/config.yaml,config/football-met.yaml,config/futsal-met.yaml`
+`% hugo server --config config/config.yaml,config/met-apps.yaml`
 
 
 # hugo コマンド
 
 静的ファイル生成時も --config オプションを付ける
 
-`% hugo --config config/config.yaml,config/football-met.yaml,config/futsal-met.yaml`
+`% hugo --config config/config.yaml,config/met-apps.yaml`

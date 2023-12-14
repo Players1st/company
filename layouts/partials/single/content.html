@@ -24,24 +24,14 @@
   {{ partial "biz/aws/section6.html" . }}
   {{ partial "biz/aws/contact.html" . }}
   {{ .Content }}
-{{ else if .Params.futsal_met }}
-  {{ partial "apps/futsal/section4.html" . }}
-  {{ partial "apps/futsal/section2.html" . }}
-  {{ partial "apps/futsal/section1.html" . }}
-  {{ partial "apps/futsal/section3.html" . }}
-  {{ partial "apps/futsal/section5.html" . }}
-  {{ partial "apps/futsal/section2.html" . }}
-  {{ partial "apps/futsal/contact.html" . }}
-  {{ .Content }}
-{{ else if .Params.football_met }}
-  {{ partial "apps/football/section4.html" . }}
-  {{ partial "apps/football/section2.html" . }}
-  {{ partial "apps/football/section1.html" . }}
-  {{ partial "apps/football/section3.html" . }}
-  {{ partial "apps/football/section5.html" . }}
-  {{ partial "apps/football/section2.html" . }}
-  {{ partial "apps/football/contact.html" . }}
-  {{ .Content }}
+{{ else if .Params.met_apps }}
+  {{ partial "met-apps/section4.html" . }}
+  {{ partial "met-apps/section2.html" . }}
+  {{ partial "met-apps/section1.html" . }}
+  {{ partial "met-apps/section3.html" . }}
+  {{ partial "met-apps/section5.html" . }}
+  {{ partial "met-apps/section2.html" . }}
+  {{ partial "met-apps/contact.html" . }}
 {{ else }}
   {{ .Content }}
 {{ end }}

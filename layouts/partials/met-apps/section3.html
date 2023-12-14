@@ -1,0 +1,123 @@
+{{- $timelineImage := "" }}
+{{- $placeImage := "" }}
+
+{{ if .Params.futsal_met }}
+    {{ $timelineImage = .Site.Params.metApps.futsalMet.image.screenshot.timelines }}
+    {{ $placeImage = .Site.Params.metApps.futsalMet.image.screenshot.place }}
+{{ else if .Params.football_met }}
+    {{ $timelineImage = .Site.Params.metApps.footballMet.image.screenshot.timelines }}
+    {{ $placeImage = .Site.Params.metApps.footballMet.image.screenshot.place }}
+{{ else if .Params.baseball_met }}
+    {{ $timelineImage = .Site.Params.metApps.baseballMet.image.screenshot.timelines }}
+    {{ $placeImage = .Site.Params.metApps.baseballMet.image.screenshot.place }}
+{{ end }}
+
+<section class="section section-light-grey">
+    <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2 is-spaced">機能</h2>
+        <h3 class="subtitle is-5">広告なしでシンプルにサクサク使える</h3>
+        <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="columns is-multiline">
+
+            <div class="column is-half">
+                <div style="text-align: center;">
+                    <img src="/images/apps/metapps/screenshots/friend_qr_code.png"
+                         style="max-width: 300px;"
+                         alt="QRコードでフレンド追加"
+                    >
+                </div>
+            </div>
+            <div class="column is-half" style="text-align: left;">
+                <div class="content-wrapper">
+                    <h1 class="is-primary title is-2">仲間を増やす</h1>
+                    <h1 class="is-secondary subtitle is-5">QRコードを読み取るだけの簡単フレンド追加</h1>
+                    <p class="is-6">
+                        一緒に蹴った人とフレンドになって、仲間の輪を広げましょう。
+                        フレンド追加は、QRコードを読み取る方法とプロフィールから申請する方法があります
+                    </p>
+                </div>
+            </div>
+
+            <div class="column is-half" style="text-align: right;">
+                <div class="content-wrapper">
+                    <h1 class="is-primary title is-2">タイムライン</h1>
+                    <h1 class="is-secondary subtitle is-5">最新情報をキャッチ</h1>
+                    <p class="is-6">
+                        蹴った時、イベントを募集した時、フレンドが増えた時など、フレンド同士の近況をチェックできます
+                    </p>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div style="text-align: center;">
+                    <img src="{{ $timelineImage }}"
+                         style="max-width: 300px;"
+                         alt="タイムライン"
+                    >
+                </div>
+            </div>
+
+            <div class="column is-half">
+                <div style="text-align: center;">
+                    <img src="/images/apps/metapps/screenshots/form.png"
+                         style="max-width: 300px;"
+                         alt="イベント作成"
+                    >
+                </div>
+            </div>
+            <div class="column is-half" style="text-align: left;">
+                <div class="content-wrapper">
+                    <h1 class="is-primary title is-2">イベント作成、参加</h1>
+                    <h1 class="is-secondary subtitle is-5">誰でも募集、誰でも参加</h1>
+                    <p class="is-6">
+                        日時と場所を入力して素早く募集。「メンバーが足りない」「もっと仲間を増やしたい」時などにも使えます
+                    </p>
+                </div>
+            </div>
+
+            <div class="column is-half" style="text-align: right;">
+                <div class="content-wrapper">
+                    <h1 class="is-primary title is-2">お気に入りコート</h1>
+                    <h1 class="is-secondary subtitle is-5">よく使うコートを保存</h1>
+                    <p class="is-6">
+                        同じコートや近くのコートなど、関連のありそうなコートを利用しているユーザーを見つけて、
+                        フレンドを増やしやすくなります
+                    </p>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div style="text-align: center;">
+                    <img src={{ $placeImage }}
+                         style="max-width: 300px;"
+                         alt="お気に入りコート"
+                    >
+                </div>
+            </div>
+
+            <div class="column">
+                <div style="text-align: center;">
+                    <img src="/images/apps/metapps/screenshots/message.png"
+                         style="max-width: 200px; margin: -30px;"
+                         alt="メッセージ交換"
+                    >
+                    <img src="/images/apps/metapps/screenshots/place_search.png"
+                         style="max-width: 200px; margin: -30px;"
+                         alt="マップからコートを検索"
+                    >
+                    <img src="/images/apps/metapps/screenshots/event.png"
+                         style="max-width: 200px; margin: -30px;"
+                         alt="イベント"
+                    >
+                </div>
+            </div>
+            <div class="column" style="text-align: left;">
+                <div class="content-wrapper">
+                    <h1 class="title is-2">広告はありません</h1>
+                    <h1 class="is-primary subtitle is-5">快適に使ってほしいから</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
