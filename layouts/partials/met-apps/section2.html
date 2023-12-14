@@ -1,9 +1,32 @@
-{{- $iosLink := .Site.Params.footballMet.downloadLink.iOS }}
-{{- $androidLink := .Site.Params.footballMet.downloadLink.Android }}
+{{- $category := "" }}
+{{- $appName := "" }}
+{{- $iconImage := "" }}
+{{- $iosLink := "" }}
+{{- $androidLink := "" }}
+
+{{ if .Params.futsal_met }}
+    {{- $category = .Site.Params.metApps.futsalMet.category }}
+    {{- $appName = .Site.Params.metApps.futsalMet.appName }}
+    {{- $iconImage = .Site.Params.metApps.futsalMet.image.icon }}
+    {{ $iosLink = .Site.Params.metApps.futsalMet.iosLink }}
+    {{ $androidLink = .Site.Params.metApps.futsalMet.androidLink }}
+{{ else if .Params.football_met }}
+    {{- $category = .Site.Params.metApps.footballMet.category }}
+    {{- $appName = .Site.Params.metApps.footballMet.appName }}
+    {{- $iconImage = .Site.Params.metApps.footballMet.image.icon }}
+    {{ $iosLink = .Site.Params.metApps.footballMet.iosLink }}
+    {{ $androidLink = .Site.Params.metApps.footballMet.androidLink }}
+{{ else if .Params.baseball_met }}
+    {{- $category = .Site.Params.metApps.baseballMet.category }}
+    {{- $appName = .Site.Params.metApps.baseballMet.appName }}
+    {{- $iconImage = .Site.Params.metApps.baseballMet.image.icon }}
+    {{ $iosLink = .Site.Params.metApps.baseballMet.iosLink }}
+    {{ $androidLink = .Site.Params.metApps.baseballMet.androidLink }}
+{{ end }}
 
 <section class="section section-primary">
     <div class="title-wrapper has-text-centered">
-        <h2 class="title is-2 light-text is-spaced">サッカーがもっと楽しくなります</h2>
+        <h2 class="title is-2 light-text is-spaced">{{ $category }}がもっと楽しくなります</h2>
         <div class="divider is-centered"></div>
     </div>
 
@@ -12,14 +35,14 @@
             <div class="column is-half">
                 <div style="text-align: center;">
                     <img style="border: solid 5px white; border-radius: 30px; width: 180px;"
-                         src="/images/logos/footballmet.png"
-                         alt="サッカーメット"
+                         src="{{ $iconImage }}"
+                         alt="{{ $appName }}"
                     >
                 </div>
             </div>
             <div class="column is-half" style="margin-left: 0px; margin-top: 10px;">
-                <h1 class="light-text title is-2">サッカーSNSアプリ</h1>
-                <h1 class="light-text subtitle is-4">サッカーメット</h1>
+                <h1 class="light-text title is-2">{{ $category }}SNSアプリ</h1>
+                <h1 class="light-text subtitle is-4">{{ $appName }}</h1>
                 <a href="{{- $iosLink }}">
                     <img src="/images/apps/App_Store_Badge.svg"
                          style="height: 50px; vertical-align: top; margin-top: 11px;"

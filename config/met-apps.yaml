@@ -4,8 +4,8 @@ params:
 
     futsalMet:
       appName: フットサルメット
-      iosID: 1539104393
-      androidID: st.players1.Futsal_Kakekomi
+      iosLink: https://itunes.apple.com/jp/app/1539104393
+      androidLink: https://play.google.com/store/apps/details?id=st.players1.Futsal_Kakekomi
       category: フットサル
       categoryEn: フットサル
       playString: 蹴った
@@ -13,6 +13,7 @@ params:
       placeString: コート
       icon: fa-futbol
       image:
+        icon: /images/logos/futsalmet.png
         header: /images/apps/futsalmet/header_footballmet.png
         screenshot:
           timelines: /images/apps/futsalmet/screenshots/timeline_view.png
@@ -21,8 +22,8 @@ params:
 
     footballMet:
       appName: サッカーメット
-      iosID: 6472140163
-      androidID: st.players1.FootballMet
+      iosLink: https://itunes.apple.com/jp/app/6472140163
+      androidLink: https://play.google.com/store/apps/details?id=st.players1.FootballMet
       category: サッカー
       categoryEn: フットボール
       playString: 蹴った
@@ -30,6 +31,7 @@ params:
       placeString: コート
       icon: fa-futbol
       image:
+        icon: /images/logos/footballmet.png
         header: /images/apps/footballmet/header_footballmet.png
         screenshot:
           timelines: /images/apps/futsalmet/screenshots/timeline_view.png
@@ -37,8 +39,8 @@ params:
 
     baseballMet:
       appName: 草野球メット
-      iosID: 6473469040
-      androidID: app.p1st.baseball_met
+      iosLink: https://itunes.apple.com/jp/app/6473469040
+      androidLink: https://play.google.com/store/apps/details?id=app.p1st.baseball_met
       category: 野球
       categoryEn: ベースボール
       playString: プレー
@@ -46,6 +48,7 @@ params:
       placeString: グラウンド
       icon: fa-baseball-bat-ball
       image:
+        icon: /images/logos/baseballmet.png
         header: /images/apps/baseballmet/header_footballmet.png
         screenshot:
           timelines: /images/apps/futsalmet/screenshots/timeline_view.png

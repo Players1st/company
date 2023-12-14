@@ -26,8 +26,9 @@
   {{ .Content }}
 {{ else if .Params.met_apps }}
   {{ partial "met-apps/section4.html" . }}
+  {{ partial "met-apps/section2.html" . }}
+  {{ partial "met-apps/section2.html" . }}
   {{ partial "met-apps/contact.html" . }}
-  {{ .Content }}
 {{ else }}
   {{ .Content }}
 {{ end }}
