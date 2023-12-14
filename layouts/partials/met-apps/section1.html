@@ -1,35 +1,116 @@
-{{- $section := .Site.Params.footballMet.section1 }}
-{{- $title    := index $section "title" }}
-{{- $contents    := index $section "contents" }}
+{{- $categoryEn := "" }}
+{{- $play := "" }}
+{{- $playing := "" }}
+{{- $place := "" }}
+{{- $icon := "" }}
+
+{{ if .Params.futsal_met }}
+    {{- $categoryEn = .Site.Params.metApps.futsalMet.categoryEn }}
+    {{- $play = .Site.Params.metApps.futsalMet.playString }}
+    {{- $playing = .Site.Params.metApps.futsalMet.playingString }}
+    {{- $place = .Site.Params.metApps.futsalMet.placeString }}
+    {{- $icon = .Site.Params.metApps.futsalMet.icon }}
+{{ else if .Params.football_met }}
+    {{- $categoryEn = .Site.Params.metApps.footballMet.categoryEn }}
+    {{- $play = .Site.Params.metApps.footballMet.playString }}
+    {{- $playing = .Site.Params.metApps.footballMet.playingString }}
+    {{- $place = .Site.Params.metApps.footballMet.placeString }}
+    {{- $icon = .Site.Params.metApps.footballMet.icon }}
+{{ else if .Params.baseball_met }}
+    {{- $categoryEn = .Site.Params.metApps.baseballMet.categoryEn }}
+    {{- $play = .Site.Params.metApps.baseballMet.playString }}
+    {{- $playing = .Site.Params.metApps.baseballMet.playingString }}
+    {{- $place = .Site.Params.metApps.baseballMet.placeString }}
+    {{- $icon = .Site.Params.metApps.baseballMet.icon }}
+{{ end }}
 
 <section class="section section-feature-grey">
     <div class="container">
         <div class="title-wrapper has-text-centered">
             <h2 class="title is-2 is-spaced">特徴</h2>
-            <h3 class="subtitle is-5">
-                {{- $title }}
-            </h3>
+            <h3 class="subtitle is-5">便利な機能でより楽しく、豊かな{{ $categoryEn }}ライフを</h3>
             <div class="divider is-centered"></div>
         </div>
         <div class="content-wrapper">
             <div class="columns is-multiline">
-                {{- range $contents }}
                 <div class="column is-half">
                     <div class="card has-text-centered">
                         <div class="card-content">
-                            <div class="title is-spaced">{{ .title }}</div>
-                            <div class="subtitle">{{ .subtitle }}</div>
+                            <div class="title is-spaced">フレンド</div>
+                            <div class="subtitle">仲間をつくる、つながる</div>
                         </div>
                         <div class="card-image">
-                            <h1 class="icon is-large" style="color: {{ .color }};">
-                                <i class="{{ .icon }} fa-2x" style="font-size: 4em;"></i>
+                            <h1 class="icon is-large" style="color: #ff1493;">
+                                <i class="fa-solid fa-people-group fa-2x" style="font-size: 4em;"></i>
                             </h1>
                         </div>
-                        <div class="card-content">{{ .description | safeHTML }}</div>
+                        <div class="card-content">
+                            <b>「一緒に{{ $playing }}人と繋がりにくい。。」</b>を解決します。<br>
+                            よく使う{{ $place }}や一緒に参加したイベントから仲間を見つけられます。<br>
+                            一緒に{{ $playing }}人とフレンドになって仲間の輪を広げましょう👍
+                        </div>
                     </div>
                 </div>
-                {{- end }}
+
+                <div class="column is-half">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <div class="title is-spaced">タイムライン</div>
+                            <div class="subtitle">近況やお知らせをチェック</div>
+                        </div>
+                        <div class="card-image">
+                            <h1 class="icon is-large" style="color: #0000cd;">
+                                <i class="fa-solid fa-bars-staggered fa-2x" style="font-size: 4em;"></i>
+                            </h1>
+                        </div>
+                        <div class="card-content">
+                            {{ $playing }}、イベント募集、フレンドが増えたなど、フレンドの近況をチェックできます。<br>
+                            いいねをすると相手のタイムラインにお知らせされます。<br>
+                            いいねをし合ってポジティブなスポーツライフを❤️
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-half">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <div class="title is-spaced">イベントを作る・参加する</div>
+                            <div class="subtitle">メンバーを募集したい人と参加したい人をつなぐ</div>
+                        </div>
+                        <div class="card-image">
+                            <h1 class="icon is-large" style="color: #ff8c00;">
+                                <i class="fa-regular fa-calendar-check fa-2x" style="font-size: 4em;"></i>
+                            </h1>
+                        </div>
+                        <div class="card-content">
+                            誰でもイベントを作って参加者を募集できます。<br>
+                            参加は募集中のイベントを見つけて、参加ボタンを押すだけの簡単操作。<br>
+                            <b>「メンバーが足りない。。」</b>など困った時にも呼びかけられます📣
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-half">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <div class="title is-spaced">{{ $play }}を残す</div>
+                            <div class="subtitle">履歴を残せます</div>
+                        </div>
+                        <div class="card-image">
+                            <h1 class="icon is-large" style="color: #32cd32;">
+                                <i class="fa-solid {{ $icon }} fa-2x" style="font-size: 4em;"></i>
+                            </h1>
+                        </div>
+                        <div class="card-content">
+                            今までの{{ $playing }}思い出を残せます。<br>
+                            一緒に{{ $playing }}参加者も確認できるので、フレンドになりやすくなります。<br>
+                            {{ $playing }}時の振り返りメモがプライベートメモとして保存できます(有料プラン)
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+

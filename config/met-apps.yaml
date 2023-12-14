@@ -14,7 +14,6 @@ params:
       icon: fa-futbol
       image:
         icon: /images/logos/futsalmet.png
-        header: /images/apps/futsalmet/header_footballmet.png
         screenshot:
           timelines: /images/apps/futsalmet/screenshots/timeline_view.png
           place: /images/apps/futsalmet/screenshots/place_detail.png
@@ -32,9 +31,8 @@ params:
       icon: fa-futbol
       image:
         icon: /images/logos/footballmet.png
-        header: /images/apps/footballmet/header_footballmet.png
         screenshot:
-          timelines: /images/apps/futsalmet/screenshots/timeline_view.png
+          timelines: /images/apps/footballmet/screenshots/timeline_view.png
           place: /images/apps/footballmet/screenshots/place_detail.png
 
     baseballMet:
@@ -49,7 +47,6 @@ params:
       icon: fa-baseball-bat-ball
       image:
         icon: /images/logos/baseballmet.png
-        header: /images/apps/baseballmet/header_footballmet.png
         screenshot:
-          timelines: /images/apps/futsalmet/screenshots/timeline_view.png
+          timelines: /images/apps/baseballmet/screenshots/timeline_view.png
           place: /images/apps/baseballmet/screenshots/place_detail.png
