@@ -1,0 +1,52 @@
+params:
+  metApps:
+    formspreeID: moqoppba
+
+    futsalMet:
+      appName: フットサルメット
+      iosID: 1539104393
+      androidID: st.players1.Futsal_Kakekomi
+      category: フットサル
+      categoryEn: フットサル
+      playString: 蹴った
+      playingString: 蹴った
+      placeString: コート
+      icon: fa-futbol
+      image:
+        header: /images/apps/futsalmet/header_footballmet.png
+        screenshot:
+          timelines: /images/apps/futsalmet/screenshots/timeline_view.png
+          place: /images/apps/futsalmet/screenshots/place_detail.png
+          placeDetail: Params.footballMet.appName
+
+    footballMet:
+      appName: サッカーメット
+      iosID: 6472140163
+      androidID: st.players1.FootballMet
+      category: サッカー
+      categoryEn: フットボール
+      playString: 蹴った
+      playingString: 蹴った
+      placeString: コート
+      icon: fa-futbol
+      image:
+        header: /images/apps/footballmet/header_footballmet.png
+        screenshot:
+          timelines: /images/apps/futsalmet/screenshots/timeline_view.png
+          place: /images/apps/footballmet/screenshots/place_detail.png
+
+    baseballMet:
+      appName: 草野球メット
+      iosID: 6473469040
+      androidID: app.p1st.baseball_met
+      category: 野球
+      categoryEn: ベースボール
+      playString: プレー
+      playingString: プレーした
+      placeString: グラウンド
+      icon: fa-baseball-bat-ball
+      image:
+        header: /images/apps/baseballmet/header_footballmet.png
+        screenshot:
+          timelines: /images/apps/futsalmet/screenshots/timeline_view.png
+          place: /images/apps/baseballmet/screenshots/place_detail.png
