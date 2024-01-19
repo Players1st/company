@@ -1,5 +1,5 @@
-{{- $timelineImage := "" }}
-{{- $placeImage := "" }}
+{{- $timelineImage := .Site.Params.metApps.futsalMet.image.screenshot.timelines }}
+{{- $placeImage := .Site.Params.metApps.futsalMet.image.screenshot.place }}
 
 {{ if .Params.futsal_met }}
     {{ $timelineImage = .Site.Params.metApps.futsalMet.image.screenshot.timelines }}
@@ -46,7 +46,7 @@
                     <h1 class="is-primary title is-2">タイムライン</h1>
                     <h1 class="is-secondary subtitle is-5">最新情報をキャッチ</h1>
                     <p class="is-6">
-                        蹴った時、イベントを募集した時、フレンドが増えた時など、フレンド同士の近況をチェックできます
+                        プレーした時、イベントを募集した時、フレンドが増えた時など、フレンド同士の近況をチェックできます
                     </p>
                 </div>
             </div>
