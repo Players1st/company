@@ -1,3 +1,5 @@
+{{- $apps    := index .Site.Params.metApps.apps }}
+
 <section id="contact" class="section section-light-grey">
     <div class="title-wrapper has-text-centered">
         <h2 class="title is-2 is-spaced">お問い合わせ</h2>
@@ -16,6 +18,18 @@
                             <input type="hidden" name="{{ .Site.Params.metApps.footballMet.appName }}">
                         {{ else if .Params.baseball_met }}
                             <input type="hidden" name="{{ .Site.Params.metApps.baseballMet.appName }}">
+                        {{ else }}
+                            <div class="column is-12">
+                                <div class="select is-info is-medium">
+                                    <select name="category" id="category" required="">
+                                        <option value="" selected="" disabled="">選択してください</option>
+                                        <option value="MetApps 全体について">MetApps 全体について</option>
+                                        {{- range $apps }}
+                                        <option value="{{ .appName }}">{{ .appName }}</option>
+                                        {{- end }}
+                                    </select>
+                                </div>
+                            </div>
                         {{ end }}
 
                         <div class="column is-6">
@@ -25,7 +39,7 @@
                             <input type="email" name="email" class="input is-medium" placeholder="メールアドレス" required="">
                         </div>
                         <div class="column is-12">
-                            <input type="text" name="company" class="input is-medium" placeholder="会社名">
+                            <input type="text" name="company" class="input is-medium" placeholder="会社名 (任意)">
                         </div>
                         <div class="column is-12">
                             <textarea name="message" class="textarea" rows="10" placeholder="メッセージ" required=""></textarea>

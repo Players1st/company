@@ -25,13 +25,23 @@
   {{ partial "biz/aws/contact.html" . }}
   {{ .Content }}
 {{ else if .Params.met_apps }}
-  {{ partial "met-apps/section4.html" . }}
-  {{ partial "met-apps/section2.html" . }}
-  {{ partial "met-apps/section1.html" . }}
-  {{ partial "met-apps/section3.html" . }}
-  {{ partial "met-apps/section5.html" . }}
-  {{ partial "met-apps/section2.html" . }}
-  {{ partial "met-apps/contact.html" . }}
+  {{ if or .Params.futsal_met .Params.football_met .Params.baseball_met }}
+    {{ partial "met-apps/section4.html" . }}
+    {{ partial "met-apps/section2.html" . }}
+    {{ partial "met-apps/section1.html" . }}
+    {{ partial "met-apps/section3.html" . }}
+    {{ partial "met-apps/section5.html" . }}
+    {{ partial "met-apps/section2.html" . }}
+    {{ partial "met-apps/contact.html" . }}
+  {{ else }}
+    {{ partial "met-apps/section4.html" . }}
+    {{ partial "met-apps/apps.html" . }}
+    {{ partial "met-apps/section1.html" . }}
+    {{ partial "met-apps/section3.html" . }}
+    {{ partial "met-apps/section5.html" . }}
+    {{ partial "met-apps/apps.html" . }}
+    {{ partial "met-apps/contact.html" . }}
+  {{ end }}
 {{ else }}
   {{ .Content }}
 {{ end }}
