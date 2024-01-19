@@ -5,6 +5,6 @@ description: 好きなスポーツをもっと楽しく。便利な機能で豊�
 include_footer: true
 met_apps: true
 images:
-- '/images/apps/futsalmet/header_futsalmet.png'
-image: '/images/apps/futsalmet/header_futsalmet.png'
+- '/images/apps/metapps/header_image.png'
+image: '/images/apps/metapps/header_image.png'
 ---

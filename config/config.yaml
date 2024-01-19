@@ -67,9 +67,6 @@ params:
     url: /#services
   - title: Contact
     url: /#contact
-  - title: サービスサイト
-    url: https://p1st.app
-    button: true
   # sidebar:
     # Logo (from /images/logos/___.svg)
     logo: fresh-square
