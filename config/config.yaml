@@ -129,6 +129,12 @@ params:
       text: 野球を楽しむ人のための「野球SNSアプリ」。一緒にプレーできるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなベースボールライフを支えます。
       url: /baseball-met
       buttonText: アプリ紹介サイト
+    - title: テニスメット
+      subtitle: テニスSNSアプリ
+      icon: tennismet
+      text: テニスを楽しむ人のための「テニスSNSアプリ」。一緒にプレーできるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなテニスライフを支えます。
+      url: /met-apps
+      buttonText: アプリ紹介サイト
     tiles2:
     tiles3:
     - title: JobLog ジョブログ
@@ -328,3 +334,5 @@ params:
           link: /football-met
         - text: 草野球メット
           link: /baseball-met
+        - text: テニスメット
+          link: /met-apps
