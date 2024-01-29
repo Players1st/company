@@ -98,3 +98,14 @@ params:
         screenshot:
           timelines: /images/apps/baseballmet/screenshots/timeline_view.png
           place: /images/apps/baseballmet/screenshots/place_detail.png
+    - name: tennis-met
+      appName: テニスメット
+      iosLink: https://itunes.apple.com/jp/app/6476718408
+      androidLink: https://play.google.com/store/apps/details?id=app.p1st.tennis_met
+      category: テニス
+      categoryEn: テニス
+      playString: プレー
+      playingString: プレーした
+      placeString: コート
+      image:
+        icon: /images/logos/tennismet.png
