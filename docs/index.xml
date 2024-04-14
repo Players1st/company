@@ -5,51 +5,42 @@
     <link>https://company.p1st.app/</link>
     <description>Recent content on 株式会社プレイヤーズファースト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://company.p1st.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <atom:link href="https://company.p1st.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWSエンジニア育成研修 - 現場で使えるAWS実践研修</title>
       <link>https://company.p1st.app/aws-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://company.p1st.app/aws-training/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MetApps - スポーツSNSアプリ メットリシリーズ</title>
       <link>https://company.p1st.app/met-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://company.p1st.app/met-apps/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>サッカーSNSアプリ - サッカーメット</title>
       <link>https://company.p1st.app/football-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://company.p1st.app/football-met/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>フットサルSNSアプリ - フットサルメット</title>
       <link>https://company.p1st.app/futsal-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://company.p1st.app/futsal-met/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>野球SNSアプリ - 草野球メット</title>
       <link>https://company.p1st.app/baseball-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://company.p1st.app/baseball-met/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
