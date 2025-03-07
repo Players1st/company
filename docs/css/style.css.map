@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/hirofukami/Development/Players1st/company",
+	"sourceRoot": "/src",
 	"sources": [
 		"themes/fresh/assets/style.sass",
 		"themes/fresh/assets/bulma/bulma.sass",
