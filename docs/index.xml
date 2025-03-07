@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>株式会社プレイヤーズファースト</title>
-    <link>https://company.p1st.app/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 株式会社プレイヤーズファースト</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <atom:link href="https://company.p1st.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWSエンジニア育成研修 - 現場で使えるAWS実践研修</title>
-      <link>https://company.p1st.app/aws-training/</link>
+      <link>http://localhost:1313/aws-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/aws-training/</guid>
+      <guid>http://localhost:1313/aws-training/</guid>
       <description></description>
     </item>
     <item>
       <title>MetApps - スポーツSNSアプリ メットリシリーズ</title>
-      <link>https://company.p1st.app/met-apps/</link>
+      <link>http://localhost:1313/met-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/met-apps/</guid>
+      <guid>http://localhost:1313/met-apps/</guid>
       <description></description>
     </item>
     <item>
       <title>サッカーSNSアプリ - サッカーメット</title>
-      <link>https://company.p1st.app/football-met/</link>
+      <link>http://localhost:1313/football-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/football-met/</guid>
+      <guid>http://localhost:1313/football-met/</guid>
       <description></description>
     </item>
     <item>
       <title>フットサルSNSアプリ - フットサルメット</title>
-      <link>https://company.p1st.app/futsal-met/</link>
+      <link>http://localhost:1313/futsal-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/futsal-met/</guid>
+      <guid>http://localhost:1313/futsal-met/</guid>
       <description></description>
     </item>
     <item>
       <title>野球SNSアプリ - 草野球メット</title>
-      <link>https://company.p1st.app/baseball-met/</link>
+      <link>http://localhost:1313/baseball-met/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/baseball-met/</guid>
+      <guid>http://localhost:1313/baseball-met/</guid>
       <description></description>
     </item>
   </channel>
