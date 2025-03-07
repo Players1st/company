@@ -50,13 +50,17 @@
               <h4>{{ .subtitle }}</h4>
             </div>
             <div class="card-icon">
+              {{ if .icon }}
               <img src="{{ printf "/images/biz/%s.png" .icon | relURL }}">
+              {{- end }}
             </div>
             <div class="card-text">
                 <p>{{ .text }}</p>
             </div>
             <div class="card-action">
+              {{ if .url }}
               <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+              {{- end }}
             </div>
           </div>
         </div>

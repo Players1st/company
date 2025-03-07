@@ -24,7 +24,7 @@ params:
   openGraph: true
   title: 株式会社プレイヤーズファースト
   # Used as meta data; describe your site to make Google Bots happy
-  description: クリエイターのための月額スポンサー募集サービス「P1st」とスポーツSNSアプリ「Metシリーズ」の開発、運営を行っています。
+  description: Webやスマホアプリの新規プロダクトの開発、運営を行っています。
   images:
   - /images/logos/p1st_logo_v2_320x320.png
   navbarlogo:
@@ -50,8 +50,8 @@ params:
     image: logos/p1st_logo_v2_320x320.png
     storyTitle: P1stのミッション
     storyDescription:
-      P1st（プレイヤーズファースト）は、アスリート、ミュージシャン、アーティスト、クリエイティブな活動をしている個人など、人々の心を揺さぶる人たちの価値を高め、より良く生きていくための環境を創ります。
-      将来、子どもたちが創造的な職業を安心して選べるように、世の中をより良く変えていきます。
+      「創る」ことへまっすぐに正直に取り組み、質の高いパフォーマンスを提供することで、
+      世の中をより良く変えていきます。
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:
     # - systek
@@ -105,12 +105,6 @@ params:
     title: 事業内容
     subtitle:
     tiles:
-    - title: P1st
-      subtitle: パーソナルファンディングサービス
-      icon: p1st_logo_v2_320x320
-      text: P1stは、アスリートやクリエイティブな活動をしている個人の活動資金を募集するサービスです。月額スポンサー募集や継続的にサポーターを増やすための機能が利用できます。
-      url: https://p1st.app
-      buttonText: サービスサイト
     - title: フットサルメット
       subtitle: フットサルSNSアプリ
       icon: futsalmet
@@ -136,6 +130,10 @@ params:
       url: /met-apps
       buttonText: アプリ紹介サイト
     tiles2:
+    - title: プロダクト開発
+      subtitle: 企業向けWeb、スマホアプリ開発
+      # icon: joblog
+      text: 企業の新規プロダクト開発のお手伝いをします。やりたいことからシステムに落とし込み、エンジニアチームを構成し開発します。柔軟に素早いパフォーマンスでプロダクトを前進させます。
     tiles3:
     - title: JobLog ジョブログ
       subtitle: 職歴プロフィールPRサイト
@@ -148,7 +146,7 @@ params:
     subtitle: 一般的な業務形態は採用していません。「人の輝きが世の中をより良くする」コンセプトに共感し、実行できるかどうかを大事にしています。
     features:
     - title: リモートワーク
-      text: オフィスを持たないフルリモートワーク。現状メンバーは、東京、青森。基本オンラインコミュニケーションです。
+      text: オフィスを持たないフルリモートワーク。すべてオンラインコミュニケーションです。
       # Icon (from /images/illustrations/icons/___.svg)
       icon: earth
     - title: 雇用形態はもっと自由に
@@ -157,12 +155,12 @@ params:
     - title: 拘束時間なし
       text: ミッションとタスクによってドリブンさせるスタイルで、業務時間や業務規程はなし。
       icon: clock
-  section3:
-    title: P1st プレイヤーズファースト
-    subtitle: 個人の可能性を引き上げるパーソナルファンディングサービス
-    image: screenshots/top.png
-    buttonText: 利用開始
-    buttonLink: https://p1st.app
+  # section3:
+  #   title: P1st プレイヤーズファースト
+  #   subtitle: 個人の可能性を引き上げるパーソナルファンディングサービス
+  #   image: screenshots/top.png
+  #   buttonText: 利用開始
+  #   buttonLink: https://p1st.app
   section4:
     title: CEO Profile
     subtitle:
@@ -310,24 +308,22 @@ params:
     # Logo (from /images/logos/___)
     logo: p1st_logo_v2_320x320.png
     # Social Media Title
-    socialmediatitle: Follow Us
+    # socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://twitter.com/pys1st
-      icon: twitter
-    - link: https://www.instagram.com/players1st.web/
-      icon: instagram
-    - link: https://youtube.com/@p1st
-      icon: youtube-play
-    - link: https://www.facebook.com/players1st.web
-      icon: facebook
+    # socialmedia:
+    # - link: https://twitter.com/pys1st
+    #   icon: twitter
+    # - link: https://www.instagram.com/players1st.web/
+    #   icon: instagram
+    # - link: https://youtube.com/@p1st
+    #   icon: youtube-play
+    # - link: https://www.facebook.com/players1st.web
+    #   icon: facebook
     bulmalogo: false
     quicklinks:
       column1:
         title: "Services"
         links:
-        - text: P1st
-          link: https://p1st.app
         - text: フットサルメット
           link: /futsal-met
         - text: サッカーメット
