@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/aws-training/</loc>
+    <loc>https://company.p1st.app/aws-training/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/met-apps/</loc>
+    <loc>https://company.p1st.app/met-apps/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/football-met/</loc>
+    <loc>https://company.p1st.app/football-met/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/futsal-met/</loc>
+    <loc>https://company.p1st.app/futsal-met/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://company.p1st.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/baseball-met/</loc>
+    <loc>https://company.p1st.app/baseball-met/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
