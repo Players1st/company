@@ -12,3 +12,4 @@
 静的ファイル生成時も --config オプションを付ける
 
 `% hugo --config config/config.yaml,config/met-apps.yaml`
+
