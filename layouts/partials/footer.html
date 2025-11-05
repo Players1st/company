@@ -22,9 +22,13 @@
             <ul class="link-list">
               {{- range .links }}
               <li>
+                {{ if .link }}
                 <a href="{{ .link }}">
                   {{ .text }}
                 </a>
+                {{ else }}
+                  {{ .text }}
+                {{ end }}
               </li>
               {{- end }}
             </ul>
