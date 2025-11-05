@@ -306,7 +306,7 @@ params:
           price: 194万円
           targets:
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
-
+  privacy: true
   footer:
     # Logo (from /images/logos/___)
     logo: p1st_logo_v2_320x320.png

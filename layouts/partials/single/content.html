@@ -42,6 +42,8 @@
     {{ partial "met-apps/apps.html" . }}
     {{ partial "met-apps/contact.html" . }}
   {{ end }}
+{{ else if .Params.privacy }}
+  {{ partial "privacy.html" . }}
 {{ else }}
   {{ .Content }}
 {{ end }}
