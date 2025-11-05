@@ -4,6 +4,9 @@
 {{- $tiles    := index $section1 "tiles" }}
 {{- $tiles2    := index $section1 "tiles2" }}
 {{- $tiles3    := index $section1 "tiles3" }}
+{{- $tilesTitle1    := index $section1 "tilesTitle1" }}
+{{- $tilesTitle2    := index $section1 "tilesTitle2" }}
+{{- $tilesTitle3    := index $section1 "tilesTitle3" }}
 <section id="services" class="section section-feature-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
@@ -12,7 +15,8 @@
     </div>
 
     <div class="content-wrapper">
-      <h2 class="subtitle is-4 has-text-centered">自社サービス</h2>
+      {{ if $tiles }}
+      <h2 class="subtitle is-4 has-text-centered">{{ $tilesTitle1 }}</h2>
       <div class="columns is-multiline">
         {{- range $tiles }}
         <div class="column is-one-third">
@@ -36,9 +40,10 @@
         </div>
         {{- end }}
       </div>
+      {{ end }}
 
       {{ if $tiles2 }}
-      <h2 class="subtitle is-4 has-text-centered">企業向けサービス</h2>
+      <h2 class="subtitle is-4 has-text-centered">{{ $tilesTitle2 }}</h2>
       <div class="columns">
         {{- range $tiles2 }}
         <div class="column is-half is-offset-one-quarter">
@@ -68,7 +73,7 @@
       </div>
       {{ end }}
 
-      <h2 class="subtitle is-4 has-text-centered">プロトタイプ</h2>
+      <h2 class="subtitle is-4 has-text-centered">{{ $tilesTitle3 }}</h2>
       <div class="columns">
         {{- range $tiles3 }}
         <div class="column is-half is-offset-one-quarter">

@@ -104,36 +104,39 @@ params:
   section1:
     title: 事業内容
     subtitle:
-    tiles:
-    - title: フットサルメット
-      subtitle: フットサルSNSアプリ
-      icon: futsalmet
-      text: フットサルを楽しむ人のための「フットサルSNSアプリ」。一緒に蹴れるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなフットサルライフを支えます。
-      url: /futsal-met
-      buttonText: アプリ紹介サイト
-    - title: サッカーメット
-      subtitle: サッカーSNSアプリ
-      icon: footballmet
-      text: サッカーを楽しむ人のための「サッカーSNSアプリ」。一緒に蹴れるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなフットボールライフを支えます。
-      url: /football-met
-      buttonText: アプリ紹介サイト
-    - title: 草野球メット
-      subtitle: 野球SNSアプリ
-      icon: baseballmet
-      text: 野球を楽しむ人のための「野球SNSアプリ」。一緒にプレーできるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなベースボールライフを支えます。
-      url: /baseball-met
-      buttonText: アプリ紹介サイト
-    - title: テニスメット
-      subtitle: テニスSNSアプリ
-      icon: tennismet
-      text: テニスを楽しむ人のための「テニスSNSアプリ」。一緒にプレーできるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなテニスライフを支えます。
-      url: /met-apps
-      buttonText: アプリ紹介サイト
+    # tilesTitle1: 自社サービス
+    # tiles:
+    # - title: フットサルメット
+    #   subtitle: フットサルSNSアプリ
+    #   icon: futsalmet
+    #   text: フットサルを楽しむ人のための「フットサルSNSアプリ」。一緒に蹴れるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなフットサルライフを支えます。
+    #   url: /futsal-met
+    #   buttonText: アプリ紹介サイト
+    # - title: サッカーメット
+    #   subtitle: サッカーSNSアプリ
+    #   icon: footballmet
+    #   text: サッカーを楽しむ人のための「サッカーSNSアプリ」。一緒に蹴れるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなフットボールライフを支えます。
+    #   url: /football-met
+    #   buttonText: アプリ紹介サイト
+    # - title: 草野球メット
+    #   subtitle: 野球SNSアプリ
+    #   icon: baseballmet
+    #   text: 野球を楽しむ人のための「野球SNSアプリ」。一緒にプレーできるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなベースボールライフを支えます。
+    #   url: /baseball-met
+    #   buttonText: アプリ紹介サイト
+    # - title: テニスメット
+    #   subtitle: テニスSNSアプリ
+    #   icon: tennismet
+    #   text: テニスを楽しむ人のための「テニスSNSアプリ」。一緒にプレーできるメンバーを募集、気軽に参加、仲間を増やすなどなど、より楽しく、豊かなテニスライフを支えます。
+    #   url: /met-apps
+    #   buttonText: アプリ紹介サイト
+    tilesTitle2: 企業向けサービス
     tiles2:
     - title: プロダクト開発
       subtitle: 企業向けWeb、スマホアプリ開発
       # icon: joblog
       text: 企業の新規プロダクト開発のお手伝いをします。やりたいことからシステムに落とし込み、エンジニアチームを構成し開発します。柔軟に素早いパフォーマンスでプロダクトを前進させます。
+    tilesTitle3: プロトタイプ
     tiles3:
     - title: JobLog ジョブログ
       subtitle: 職歴プロフィールPRサイト
@@ -324,11 +327,11 @@ params:
       column1:
         title: "Services"
         links:
-        - text: フットサルメット
-          link: /futsal-met
-        - text: サッカーメット
-          link: /football-met
-        - text: 草野球メット
-          link: /baseball-met
-        - text: テニスメット
-          link: /met-apps
+        - text: 企業向けサービス プロダクト開発
+        - text: プロトタイプ JobLog ジョブログ
+          link: https://joblog.p1st.app/
+      column2:
+        title: "Company"
+        links:
+        - text: プライバシーポリシー
+          link: /privacy
