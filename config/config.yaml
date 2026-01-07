@@ -136,6 +136,12 @@ params:
       subtitle: 企業向けWeb、スマホアプリ開発
       # icon: joblog
       text: 企業の新規プロダクト開発のお手伝いをします。やりたいことからシステムに落とし込み、エンジニアチームを構成し開発します。柔軟に素早いパフォーマンスでプロダクトを前進させます。
+    - title: AWSエンジニア育成研修
+      subtitle: 現場で使うためのAWS・インフラエンジニア実践研修
+      icon: aws-training
+      text: 概要講義からハンズオン研修まで「創れるエンジニア」になるための実践的な研修を行います。SES、システムインテグレータ企業へAWS認定資格取得、AWS研修、DevOps研修などの実績があります。
+      url: /aws-training
+      buttonText: サービス紹介    
     tilesTitle3: プロトタイプ
     tiles3:
     - title: JobLog ジョブログ
@@ -290,7 +296,8 @@ params:
           targets:
             - content: AWS主要サービスの理解があること
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
-          price: 168,000円
+          price: 31.8万円〜
+          priceCurrency: true
         - title: 演習課題 主要サービス対象
           term: 3日間 (8時間/日)
           description: '現場で求められる要件を想定した主要AWSサービスへの演習課題の実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 10程度(当日の進み具合によって前後します)'
@@ -298,12 +305,13 @@ params:
           targets:
             - content: AWS主要サービスの理解があること
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
-          price: 418,000円
+          price: 72.8万円〜
+          priceCurrency: true
         - title: AWS主要サービス講義 + 演習課題
           term: 20日間 (4週間 8時間/日)
           description: 'AWS主要サービス講義の実施<br>現場で求められる要件を想定した演習課題の実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 15程度(当日の進み具合によって前後します)'
           number: 5〜40名
-          price: 194万円
+          price: 別途お見積り
           targets:
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
   privacy: true
