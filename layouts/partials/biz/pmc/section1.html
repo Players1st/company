@@ -1,0 +1,25 @@
+{{- $section := .Site.Params.pmCoaching.section1 }}
+{{- $title    := index $section "title" }}
+{{- $hero    := index $section "hero" }}
+{{- $contents    := index $section "contents" }}
+
+<section class="section section-secondary">
+  <div class="container">
+    <h2 class="title is-2 is-spaced has-text-centered has-text-white">
+      {{ $hero.title }}
+    </h2>
+    <h3 class="subtitle is-spaced is-5 has-text-centered">
+      {{ $hero.subtitle | safeHTML}}
+    </h3>
+    <h4 class="has-text-centered has-text-white is-primary is-size-5">
+      {{ $hero.description | safeHTML }}
+    </h4>
+  </div>
+  <div class="container has-text-centered">
+    <a href="#contact">
+      <button class="button cta primary-btn raised is-clear mt-40">
+        {{ $hero.buttontext }}
+      </button>
+    </a>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+{{ $section := .Site.Params.pmCoaching.section6 }}
+{{ $contents   := index $section "contents" }}
+
+<section class="section section-feature-grey">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">{{ $section.title }}</h2>
+      <h3 class="subtitle is-5">{{ $section.subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <div class="columns is-multiline">
+        {{ range $contents }}
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <div class="content is-size-5 is-spaced is-primary has-text-weight-bold">
+                {{ .description }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
