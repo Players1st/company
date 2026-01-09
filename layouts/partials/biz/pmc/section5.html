@@ -1,0 +1,54 @@
+{{ $section := .Site.Params.pmCoaching.section5 }}
+{{- $values    := index $section "values" }}
+{{- $services    := index $section "services" }}
+
+<section class="section section-primary">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 light-text is-spaced">{{ $section.title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $section.subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <h3 class="subtitle has-text-weight-bold has-text-centered has-text-white">
+        {{ $section.value }}
+      </h3>
+      <div class="columns is-multiline">
+        {{ range $values }}
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <div class="content has-text-centered is-secondary has-text-weight-bold">
+                {{ .item }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      <h3 class="subtitle has-text-weight-bold has-text-centered has-text-white">
+        {{ $section.service }}
+      </h3>
+      <div class="columns is-multiline">
+        {{ range $services }}
+        <div class="column is-half">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-header-title">{{ .title }}</div>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                {{ .description | safeHTML }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="content subtitle has-text-centered has-text-white">
+        {{ $section.message }}
+      </div>      
+    </div>
+  </div>
+</section>

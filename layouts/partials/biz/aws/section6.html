@@ -19,7 +19,9 @@
             <div class="card-content">
               <div class="content title is-spaced is-primary has-text-weight-bold has-text-centered">
                 {{ .price }}
+                {{ if .priceCurrency }}
                 <span class="is-size-6">税込</span>
+                {{ end }}
               </div>
               <div class="content subtitle has-text-centered">{{ .term }}</div>
               <div class="content">{{ .description | safeHTML }}</div>

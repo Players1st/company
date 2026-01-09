@@ -1,0 +1,20 @@
+{{- $section := .Site.Params.pmCoaching.section3 }}
+{{- $contents    := index $section "contents" }}
+
+<section class="section section-secondary">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced has-text-white">{{ $section.title }}</h2>
+      <h3 class="subtitle is-5 has-text-white">{{ $section.subtitle }}</h3>
+    </div>
+    <div class="content-wrapper">
+      <div class="card">
+        <div class="card-content">
+          {{ range $contents }}
+            <div class="content">{{ .description | safeHTML }}</div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -8,7 +8,6 @@ canonifyURLs: true
 # Disables warnings
 disableKinds:
 - taxonomy
-- taxonomyTerm
 markup:
   goldmark:
     renderer:
@@ -37,6 +36,7 @@ params:
   googleRecaptchaKey: 6LcU1ukeAAAAADHPVVE3dpOLhFnZPOzZY1z7UZsa
   formspreeID: mayvbdpl
   formspreeAWSID: xgebrvyl
+  formspreePMCID: xnjneewv
   hero:
     # Main hero title
     title: 人の輝きが世の中をより良くする
@@ -69,38 +69,38 @@ params:
     url: /#contact
   # sidebar:
     # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+    # logo: fresh-square
+    # sections:
+    # - title: User
+    #   icon: user
+    #   links:
+    #   - text: Profile
+    #     url: /
+    #   - text: Account
+    #     url: /
+    #   - text: Settings
+    #     url: /
+    # - title: Messages
+    #   icon: envelope
+    #   links:
+    #   - text: Inbox
+    #     url: /
+    #   - text: Compose
+    #     url: /
+    # - title: Images
+    #   icon: image
+    #   links:
+    #   - text: Library
+    #     url: /
+    #   - text: Upload
+    #     url: /
+    # - title: Settings
+    #   icon: cog
+    #   links:
+    #   - text: User settings
+    #     url: /
+    #   - text: App settings
+    #     url: /
   section1:
     title: 事業内容
     subtitle:
@@ -132,6 +132,18 @@ params:
     #   buttonText: アプリ紹介サイト
     tilesTitle2: 企業向けサービス
     tiles2:
+    - title: PMプロフェッショナル育成コーチング
+      subtitle: プロジェクトを「失敗させない」PMを育てるためのコーチングサービス
+      icon: pm-coaching
+      text: 実装を理解し、顧客からもエンジニアからも信頼される真のプロフェッショナルPMを育てるための、伴走型コーチングサービスです。
+      url: /pm-coaching
+      buttonText: サービス紹介
+    - title: AWSエンジニア育成研修
+      subtitle: 現場で使うためのAWS・インフラエンジニア実践研修
+      icon: aws-training
+      text: 概要講義からハンズオン研修まで「創れるエンジニア」になるための実践的な研修を行います。SES、システムインテグレータ企業へAWS認定資格取得、AWS研修、DevOps研修などの実績があります。
+      url: /aws-training
+      buttonText: サービス紹介    
     - title: プロダクト開発
       subtitle: 企業向けWeb、スマホアプリ開発
       # icon: joblog
@@ -277,7 +289,7 @@ params:
         - title: 2014年「WordPressプロフェッショナル養成読本」技術評論社 AWSの章を担当
         - title: 2010年「よくわかるAmazonEC2/S3入門」技術評論社
       works:
-        - title: 東証一部上場企業などのエンジニア育成のための研修・講義の実績あり
+        - title: 東証プライム上場企業などのエンジニア育成のための研修・講義の実績あり
         - title: SES企業 エンジニア向け AWS資格取得＆実践研修
         - title: NTTグループ企業 エンジニア向け Chef実践研修
         - title: NTTグループ企業 エンジニア勉強会講師
@@ -290,7 +302,8 @@ params:
           targets:
             - content: AWS主要サービスの理解があること
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
-          price: 168,000円
+          price: 31.8万円〜
+          priceCurrency: true
         - title: 演習課題 主要サービス対象
           term: 3日間 (8時間/日)
           description: '現場で求められる要件を想定した主要AWSサービスへの演習課題の実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 10程度(当日の進み具合によって前後します)'
@@ -298,14 +311,97 @@ params:
           targets:
             - content: AWS主要サービスの理解があること
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
-          price: 418,000円
+          price: 72.8万円〜
+          priceCurrency: true
         - title: AWS主要サービス講義 + 演習課題
           term: 20日間 (4週間 8時間/日)
           description: 'AWS主要サービス講義の実施<br>現場で求められる要件を想定した演習課題の実施<br>AWSの設定・システム構築後、成果発表<br>成果物と発表内容への講師レビュー<br>演習課題数: 15程度(当日の進み具合によって前後します)'
           number: 5〜40名
-          price: 194万円
+          price: 別途お見積り
           targets:
             - content: Linux、データベース、インターネットへの基本的な理解ができていること
+  pmCoaching:
+    section1:
+      hero:
+        title: 技術がわからないまま、PMを続けていませんか。
+        subtitle: 実装を理解し、チームを迷わせない。プロジェクトを“失敗させない”PMを育てる。
+        description: PMプロフェッショナルコーチングは、実装を理解し、顧客からもエンジニアからも信頼される<br>「<span class="has-text-weight-bold">真のプロフェッショナルPM</span>」を育てる伴走型コーチングサービスです。
+        buttontext: 無料相談を予約する
+    section2:
+      title: このサービスが解決する課題
+      subtitle: PMが技術を理解できないことで、プロジェクトは静かに壊れます
+      contents:
+        - sentence: エンジニアに「それは難しいですね」と言われた時、何が難しいのか判断できない
+        - sentence: プロジェクトの進行スピードが速いのか遅いのか分からず、スケジュールが修正できない
+        - sentence: 要件の優先順位が決められないずに、やることリストが膨れ上がってしまう
+        - sentence: チーム内にはこれではまずいという雰囲気があるが、誰も意見を言わなくなり消極的になる
+      message: 問題は努力不足ではなく、知識とノウハウに裏付けられた「判断の前提」が欠けていることです。
+    section3:
+      title: PMプロフェッショナルコーチングとは
+      subtitle: 実プロジェクトを通じて、判断できるPMを育てる
+      contents:
+        - description: 本サービスは、座学や一般論の研修ではありません。<br>実際のプロジェクトを題材に、技術理解・判断・コミュニケーションを結びつけながら、PMが「その場で決められる」状態を作ることを目的としています。
+        - description: PMが仕様をまとめる人ではなく、<span class="has-text-weight-bold">実装の現実を踏まえて意思決定し、チームを前に進める存在</span>になることを支援します。
+    section4:
+      title: 独自のカリキュラム
+      subtitle: 実際のプロジェクトを前提に「判断できる状態」を作ることに特化しています。
+      contents:
+        - description: 必要最低限の機能を定義し、まず形にする
+        - description: それを最初のゴールとして、関係者全員と合意する
+        - description: 頻度高く進捗を確認し、素早く軌道修正を行う
+        - description: 技術的な前提を理解した上で判断する
+      message: この初期設計ができるだけで、プロジェクト崩壊のリスクは大きく下がります。
+    section5:
+      title: 提供価値と提供内容
+      value: 提供価値
+      service: 提供内容
+      values:
+        - item: 実装を理解した上で判断できる
+        - item: 顧客からもエンジニアからも信頼される
+        - item: チームを迷わせない
+        - item: 技術とビジネスの橋渡を行う
+        - item: 属人的でない「失敗回避の型」を身につける
+      services:
+        - title: 定期的な1on1コーチング
+          description: '週1回から1on1コーチングを実施<br>実プロジェクトの状況に応じて、技術理解・設計・見積り・コミュニケーションなどの支援を行います。'
+        - title: 実プロジェクトのレビュー
+          description: '実プロジェクトの要件定義・設計・見積り・スケジュールなどのレビューを実施<br>必要に応じて、技術的なアドバイスや改善案の提示を行います。'
+        - title: 技術・設計・見積りの壁打ち
+          description: '技術的な理解が必要な場面で、随時質問や相談を受け付けます<br>設計や見積りの壁打ち相手として活用いただけます。'
+        - title: 顧客・チームコミュニケーションの整理
+          description: '顧客やチームメンバーとのコミュニケーションに関する相談を受け付けます<br>難しい状況での対応方法や伝え方についてアドバイスを行います。'
+        - title: PM向けフレームワークの提供
+          description: 'PMが技術的な理解を深め、判断力を高めるためのフレームワークやチェックリストを提供します<br>実践的に活用できるツールとして利用いただけます。'
+      message: ※ 内容は企業・プロジェクト状況に応じて調整します。
+    section6:
+      title: 対象となる方
+      subtitle: 現場で活躍するPMを目指すすべての方へ
+      contents:
+        - description: 受託開発・プロダクト開発のPM
+        - description: 技術理解に不安を感じているPM
+        - description: 顧客の言いなりをやめたいと思っているPM
+        - description: エンジニアとの信頼関係構築に課題を感じている方
+        - description: PMへのキャリアアップを目指すエンジニア
+        - description: プロジェクトを安定して成功させたいチーム・企業
+    section7:
+      title: 担当者について
+      name: 深海 寛信
+      nameEng: Hiro Fukami
+      position: ソフトウェアエンジニア、プロダクトマネージャー、スタートアップ創業者、経営者
+      description: 技術・開発マネジメント・事業開発の現場を20年以上経験。<br>インフラからソフトウェア、東証プライム上場企業からスタートアップまで幅広い領域でPM・技術責任者としてプロジェクトを推進。<br>現在は、実装を理解したプロフェッショナルPM育成に注力している。
+    section8:
+      title: 料金・進め方
+      subtitle: ヒアリングに基づき、最適なプランをご提案します  
+      contents:
+        - title: 無料相談
+        - title: 課題ヒアリング
+        - title: ご提案
+        - title: 契約・開始
+    contact:
+      title: 無料相談を予約する
+      subtitle: 「PMとしてこのままで良いのか」と少しでも感じたら、まずは状況をお聞かせください。
+      message: 無理な営業は行いません。現在の状況を整理する場としてご利用ください。
+      buttonText: 送信
   privacy: true
   footer:
     # Logo (from /images/logos/___)
@@ -327,6 +423,10 @@ params:
       column1:
         title: "Services"
         links:
+        - text: PMプロフェッショナル育成コーチング
+          link: /pm-coaching
+        - text: AWSエンジニア育成研修
+          link: /aws-training
         - text: 企業向けサービス プロダクト開発
         - text: プロトタイプ JobLog ジョブログ
           link: https://joblog.p1st.app/
