@@ -5,5 +5,5 @@ description: PMプロフェッショナル育成コーチングは、PMが「単
 include_footer: true
 pm_coaching: true
 images:
-- '/images/biz/aws-training.png'
+- '/images/biz/pm-coaching.png'
 ---
