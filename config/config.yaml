@@ -23,7 +23,7 @@ params:
   openGraph: true
   title: 株式会社プレイヤーズファースト
   # Used as meta data; describe your site to make Google Bots happy
-  description: Webやスマホアプリの新規プロダクトの開発、運営を行っています。
+  description: Webやスマホアプリの新規プロダクトの開発、質の高いPM人材育成などを行っています。
   images:
   - /images/logos/p1st_logo_v2_320x320.png
   navbarlogo:

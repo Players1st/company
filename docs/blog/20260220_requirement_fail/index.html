@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head>
+    
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73836462-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
++
+  gtag('config', 'UA-73836462-3');
+</script>
+
+
+
+
+<meta property="og:title" content="なぜ「要件定義」が崩壊の始まりになるのか" />
+<meta property="og:description" content="多くの炎上プロジェクトは、
+開発後半ではなく、要件定義の段階ですでに崩れ始めています。
+しかし当事者はそれに気づきません。
+なぜなら要件定義は、
+「順調に進んでいるように見える工程」だからです。
+会議もしている ドキュメントも作っている 合意も取っている それでも、崩壊は静かに始まっています。
+要件定義で本当に起きていること 多くの現場で起きているのは、
+“要望の整理”であって、“要件の定義”ではないという現象です。
+顧客や事業側の声を集め、
+これも必要 あれも欲しい 将来的にはこうしたい それを資料にまとめる。
+一見、正しいプロセスに見えます。
+しかし、本来の要件定義は違います。
+「何をやらないか」を決める工程
+です。
+ここが曖昧なまま進むと、
+後工程で必ず歪みが生まれます。
+崩壊が始まる3つのポイント 1. 目的が抽象的なまま進む 典型例：
+「ユーザー体験を向上させたい」 「業務を効率化したい」 「競争力を強化したい」 間違ってはいません。
+しかし抽象的な目的は、
+無限に解釈可能です。
+その結果、
+スコープが膨張する 優先順位が揺れる 意思決定がブレる 要件定義の最初にやるべきことは、
+このプロジェクトが“成功”と言える状態は何か？
+を定義することです。
+これがないまま仕様に入ると、
+プロジェクトは必ず迷走します。
+2. 前提条件が言語化されていない 多くの要件定義書には、機能一覧はあります。
+しかし、
+技術制約 予算制約 スケジュール制約 組織的制約 が明文化されていないことが多い。
+結果として、
+「そんな前提は聞いていない」 「それは想定外だった」
+という衝突が起きます。
+要件とは、
+機能 &#43; 制約条件 です。
+制約を書かない要件定義は、
+設計図のない建築と同じです。
+3. 決定構造が曖昧 要件定義中によく聞く言葉があります。
+「一旦これでいきましょう」 「仮で置いておきます」 「後で調整しましょう」 仮置きが多いプロジェクトは、
+ほぼ確実に後半で爆発します。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://company.p1st.app/blog/20260220_requirement_fail/" /><meta property="og:image" content="https://company.p1st.app/images/blog/20260220_requirement_fail.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2026-02-20T10:54:00+09:00" />
+<meta property="article:modified_time" content="2026-02-20T10:54:00+09:00" /><meta property="og:site_name" content="株式会社プレイヤーズファースト" />
+
+
+
+<meta name="description" content="Webやスマホアプリの新規プロダクトの開発、質の高いPM人材育成などを行っています。" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    
+    <title>なぜ「要件定義」が崩壊の始まりになるのか | 株式会社プレイヤーズファースト</title>
+    
+    
+<link rel="icon" type="image/png" href="https://company.p1st.app/images/favicon_p1st.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://company.p1st.app/css/style.min.19545a4c66f7bb97d4719061e1c98fac033b17e1653d6d90f4c08a3f8f8c09a7.css" integrity="sha256-GVRaTGb3u5fUcZBh4cmPrAM7F&#43;FlPW2Q9MCKP4&#43;MCac=">
+<link rel="stylesheet" type="text/css" href="https://company.p1st.app/css/icons.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    
+
+    
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://company.p1st.app/">
+        <img src="https://company.p1st.app/images/logos/p1st_logo_v2_320x320.png" alt="">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="https://company.p1st.app/" class="navbar-item is-secondary">
+            Home
+          </a>
+          <a href="https://company.p1st.app/#services" class="navbar-item is-secondary">
+            Services
+          </a>
+          <a href="https://company.p1st.app/#contact" class="navbar-item is-secondary">
+            Contact
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://company.p1st.app/">
+        <img src="https://company.p1st.app/images/logos/p1st_logo_v2_320x320.png" alt="">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="https://company.p1st.app/" class="navbar-item is-secondary">
+          Home
+        </a>
+        <a href="https://company.p1st.app/#services" class="navbar-item is-secondary">
+          Services
+        </a>
+        <a href="https://company.p1st.app/#contact" class="navbar-item is-secondary">
+          Contact
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">なぜ「要件定義」が崩壊の始まりになるのか</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    
+
+<div class="post_meta" style="margin-bottom: 30px;"><div class='subtitle' title='2026-02-20 10:54:00 +0900 +0900'>February 20, 2026</div><div>Categories: <a href="https://company.p1st.app/categories/PM%e3%83%8e%e3%82%a6%e3%83%8f%e3%82%a6/">PMノウハウ</a></div>
+  <div style="margin-bottom: 20px;">Tags: <a href="https://company.p1st.app/tags/%e8%a6%81%e4%bb%b6%e5%ae%9a%e7%be%a9/">#要件定義</a> <a href="https://company.p1st.app/tags/IT%e9%96%8b%e7%99%ba/">#IT開発</a> <a href="https://company.p1st.app/tags/PM/">#PM</a> <a href="https://company.p1st.app/tags/%e5%a4%b1%e6%95%97/">#失敗</a></div>
+  <div><img src="https://company.p1st.app/images/blog/20260220_requirement_fail.png" alt="なぜ「要件定義」が崩壊の始まりになるのか thumbnail"></div>
+
+</div>
+
+
+
+
+<div class="content"><p>多くの炎上プロジェクトは、<br>
+開発後半ではなく、<strong>要件定義の段階ですでに崩れ始めています。</strong></p>
+<p>しかし当事者はそれに気づきません。</p>
+<p>なぜなら要件定義は、<br>
+「順調に進んでいるように見える工程」だからです。</p>
+<ul>
+<li>会議もしている</li>
+<li>ドキュメントも作っている</li>
+<li>合意も取っている</li>
+</ul>
+<p>それでも、崩壊は静かに始まっています。</p>
+<hr>
+<h1 id="要件定義で本当に起きていること">要件定義で本当に起きていること</h1>
+<p>多くの現場で起きているのは、<br>
+<strong>“要望の整理”であって、“要件の定義”ではない</strong>という現象です。</p>
+<p>顧客や事業側の声を集め、</p>
+<ul>
+<li>これも必要</li>
+<li>あれも欲しい</li>
+<li>将来的にはこうしたい</li>
+</ul>
+<p>それを資料にまとめる。</p>
+<p>一見、正しいプロセスに見えます。</p>
+<p>しかし、本来の要件定義は違います。</p>
+<blockquote>
+<p>「何をやらないか」を決める工程</p>
+</blockquote>
+<p>です。</p>
+<p>ここが曖昧なまま進むと、<br>
+後工程で必ず歪みが生まれます。</p>
+<hr>
+<h1 id="崩壊が始まる3つのポイント">崩壊が始まる3つのポイント</h1>
+<h2 id="1-目的が抽象的なまま進む">1. 目的が抽象的なまま進む</h2>
+<p>典型例：</p>
+<ul>
+<li>「ユーザー体験を向上させたい」</li>
+<li>「業務を効率化したい」</li>
+<li>「競争力を強化したい」</li>
+</ul>
+<p>間違ってはいません。</p>
+<p>しかし抽象的な目的は、<br>
+無限に解釈可能です。</p>
+<p>その結果、</p>
+<ul>
+<li>スコープが膨張する</li>
+<li>優先順位が揺れる</li>
+<li>意思決定がブレる</li>
+</ul>
+<p>要件定義の最初にやるべきことは、</p>
+<blockquote>
+<p>このプロジェクトが“成功”と言える状態は何か？</p>
+</blockquote>
+<p>を定義することです。</p>
+<p>これがないまま仕様に入ると、<br>
+プロジェクトは必ず迷走します。</p>
+<hr>
+<h2 id="2-前提条件が言語化されていない">2. 前提条件が言語化されていない</h2>
+<p>多くの要件定義書には、機能一覧はあります。</p>
+<p>しかし、</p>
+<ul>
+<li>技術制約</li>
+<li>予算制約</li>
+<li>スケジュール制約</li>
+<li>組織的制約</li>
+</ul>
+<p>が明文化されていないことが多い。</p>
+<p>結果として、</p>
+<p>「そんな前提は聞いていない」
+「それは想定外だった」</p>
+<p>という衝突が起きます。</p>
+<p>要件とは、<br>
+<strong>機能 + 制約条件</strong> です。</p>
+<p>制約を書かない要件定義は、<br>
+設計図のない建築と同じです。</p>
+<hr>
+<h2 id="3-決定構造が曖昧">3. 決定構造が曖昧</h2>
+<p>要件定義中によく聞く言葉があります。</p>
+<ul>
+<li>「一旦これでいきましょう」</li>
+<li>「仮で置いておきます」</li>
+<li>「後で調整しましょう」</li>
+</ul>
+<p>仮置きが多いプロジェクトは、<br>
+ほぼ確実に後半で爆発します。</p>
+<p>問題は仮置きそのものではありません。</p>
+<p>問題は、</p>
+<blockquote>
+<p>その仮置きの責任者と見直しタイミングが定義されていないこと</p>
+</blockquote>
+<p>です。</p>
+<p>決定構造が曖昧なまま開発に入ると、<br>
+仕様変更が連鎖的に発生します。</p>
+<hr>
+<h1 id="なぜpmは止められないのか">なぜPMは止められないのか？</h1>
+<p>多くのPMは、違和感を覚えています。</p>
+<ul>
+<li>目的がふわっとしている</li>
+<li>制約が整理されていない</li>
+<li>合意が曖昧</li>
+</ul>
+<p>それでも止められない。</p>
+<p>理由は主に3つです。</p>
+<ol>
+<li>早く開発に入りたいという圧力</li>
+<li>上位者の意向への遠慮</li>
+<li>技術的制約への理解不足</li>
+</ol>
+<p>しかしここで立ち止まれないと、<br>
+後で何倍ものコストを払うことになります。</p>
+<hr>
+<h1 id="要件定義を崩壊させないために">要件定義を崩壊させないために</h1>
+<p>高度な手法は不要です。</p>
+<p>最低限、以下を明文化するだけでよい。</p>
+<h3 id="1-成功定義success-criteria">1. 成功定義（Success Criteria）</h3>
+<ul>
+<li>数値で測れるか？</li>
+<li>誰が評価するのか？</li>
+</ul>
+<h3 id="2-スコープの外側">2. スコープの外側</h3>
+<ul>
+<li>今回やらないことは何か？</li>
+</ul>
+<h3 id="3-制約条件一覧">3. 制約条件一覧</h3>
+<ul>
+<li>技術</li>
+<li>予算</li>
+<li>スケジュール</li>
+<li>組織</li>
+</ul>
+<h3 id="4-意思決定ルール">4. 意思決定ルール</h3>
+<ul>
+<li>誰が最終決定者か？</li>
+<li>変更時のプロセスは？</li>
+</ul>
+<p>これが揃って初めて、<br>
+要件定義は「完了」と言えます。</p>
+<hr>
+<h1 id="本質的な問題">本質的な問題</h1>
+<p>要件定義が崩壊する本当の理由は、</p>
+<blockquote>
+<p>曖昧さを放置したまま前に進んでしまうこと</p>
+</blockquote>
+<p>です。</p>
+<p>曖昧さは楽です。<br>
+対立も起きません。</p>
+<p>しかし曖昧さは、<br>
+必ず後工程でコストとして返ってきます。</p>
+<hr>
+<h1 id="最後に">最後に</h1>
+<p>炎上は、設計ミスではありません。</p>
+<p>ほとんどの場合、</p>
+<p><strong>要件定義の曖昧さが時間差で爆発した結果</strong></p>
+<p>です。</p>
+<p>もし今、</p>
+<ul>
+<li>要件定義に不安がある</li>
+<li>合意形成に違和感がある</li>
+<li>開発前なのにモヤモヤしている</li>
+</ul>
+<p>そんな状態なら、一度立ち止まり、<br>
+構造を整理する価値があります。</p>
+<p>プロジェクトを守る最大の防御は、<br>
+「早く作ること」ではなく<br>
+<strong>「正しく決めること」</strong> です。</p>
+<p>PMプロフェッショナル育成コーチングでは、実践に即した独自のカリキュラムで、プロジェクトを成功に導くPM育成を行っています。</p>
+<p>ご興味ある方は、こちらをご覧ください。</p>
+<p>👉 <a href="https://company.p1st.app/pm-coaching/">https://company.p1st.app/pm-coaching/</a></p>
+</div>
+  </div>
+</section>
+
+
+
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="https://company.p1st.app/images/logos/p1st_logo_v2_320x320.png">
+          <p class="is-size-6">株式会社プレイヤーズファースト</p>
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Services</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                
+                <a href="https://company.p1st.app/pm-coaching">
+                  PMプロフェッショナル育成コーチング
+                </a>
+                
+              </li>
+              <li>
+                
+                <a href="https://company.p1st.app/aws-training">
+                  AWSエンジニア育成研修
+                </a>
+                
+              </li>
+              <li>
+                
+                  企業向けサービス プロダクト開発
+                
+              </li>
+              <li>
+                
+                <a href="https://joblog.p1st.app/">
+                  プロトタイプ JobLog ジョブログ
+                </a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Company</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                
+                <a href="https://company.p1st.app/privacy">
+                  プライバシーポリシー
+                </a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      
+    </div>
+    <p class="has-text-centered">© Players1st inc. All rights reserved.</p>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://company.p1st.app/js/fresh.js"></script>
+<script src="https://company.p1st.app/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="//www.google.com/recaptcha/api.js" async defer></script>
+
+
+  </body>
+</html>

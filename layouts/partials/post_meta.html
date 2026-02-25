@@ -1,0 +1,20 @@
+{{- $scratch := newScratch }}
+
+<div class="post_meta" style="margin-bottom: 30px;">
+  {{- if not .Date.IsZero -}}
+    {{- $scratch.Add "meta" (slice (printf "<div class='subtitle' title='%s'>%s</div>" (.Date) (.Date | time.Format (default ":date_long" site.Params.DateFormat)))) }}
+  {{- end }}
+      
+  {{- with ($scratch.Get "meta") }}
+    {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+  {{- end -}}
+
+  {{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+  {{ with .Params.tags }}<div style="margin-bottom: 20px;">Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+  {{ with .Params.thumbnailImage }}<div><img src="{{ . }}" alt="{{ $.Title }} thumbnail"></div>{{ end }}
+
+</div>
+
+
+
+

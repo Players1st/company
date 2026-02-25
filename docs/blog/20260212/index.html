@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+<meta property="og:title" content="技術がわからないPMが、判断できなくなる本当の理由" />
+<meta property="og:description" content="技術がわからないPMが、判断できなくなる本当の理由 こんな場面に心当たりはありませんか？ エンジニアに仕様を相談したとき、
+「それは難しいですね」と言われて会話が止まる。
+見積もりが出てきても、妥当かどうか判断できない。
+優先順位を決めきれず、結局「全部やる」ことになる。
+気づけばスケジュールは遅れ、
+チームの発言も少しずつ減っていく。
+そして最後は、
+「もっと早く言ってほしかったですね」と言われる。
+PMとして現場に立っていると、こうした瞬間に何度も出会います。
+真面目に取り組んでいるのに、なぜかうまくいかない。
+頑張っているのに、手応えがない。
+そんな感覚を持ったことはないでしょうか。
+これは「能力不足」ではない まず最初に伝えたいのは、
+これはPM個人の能力や努力不足の問題ではない、ということです。
+多くのPMは十分に優秀で、責任感も強く、
+誰よりもプロジェクトの成功を願っています。
+それでもうまくいかない。
+なぜか。
+原因は、もっと構造的なところにあります。
+判断できなくなる本当の理由 結論から言うと、
+「技術的な前提が見えていないこと」
+これが一番の原因だと、私は考えています。
+PMの仕事は、突き詰めると「判断の連続」です。
+この要件は本当に必要か 優先順位はどちらが先か この見積は妥当か スケジュールは現実的か リスクは許容できるか 毎日、無数の意思決定をしています。
+そして、
+判断には必ず「前提条件」が必要です。
+難易度、依存関係、影響範囲、実装コスト、技術的制約。
+これらが見えて初めて、比較や評価ができます。
+しかし技術的な構造が理解できていないと、この「前提」が見えません。
+するとどうなるか。
+判断ができない。
+だから最終的に、
+エンジニア任せにする 顧客の要望をそのまま受け入れる なんとなくの感覚で決める こうなってしまいます。
+これは怠慢ではなく、
+材料がない中で判断しようとしている状態なのです。
+そしてプロジェクトは静かに崩れていく この状態が続くと、プロジェクトは徐々に悪循環に入ります。
+技術がわからない ↓ 判断できない ↓ 全部受ける／全部やる ↓ 優先順位が崩れる ↓ スケジュールが遅れる ↓ チームが疲弊する ↓ 意見が出なくなる ↓ PMがさらに孤立する
+派手な炎上ではなく、
+「気づいたら崩れている」パターンです。
+私はこのケースを、何度も現場で見てきました。
+必要なのは「深い技術力」ではない ここで誤解してほしくないのは、
+「PMもエンジニアになれ」と言いたいわけではありません。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/20260212/" /><meta property="og:image" content="http://localhost:1313/images/logos/p1st_logo_v2_320x320.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2026-02-12T11:27:00+09:00" />
+<meta property="article:modified_time" content="2026-02-12T11:27:00+09:00" /><meta property="og:site_name" content="株式会社プレイヤーズファースト" />
+
+
+
+<meta name="description" content="Webやスマホアプリの新規プロダクトの開発、運営を行っています。" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    
+    <title>技術がわからないPMが、判断できなくなる本当の理由 | 株式会社プレイヤーズファースト</title>
+    
+    
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon_p1st.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/style.css">
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/icons.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    
+
+    
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://localhost:1313/">
+        <img src="http://localhost:1313/images/logos/p1st_logo_v2_320x320.png" alt="">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="http://localhost:1313/" class="navbar-item is-secondary">
+            Home
+          </a>
+          <a href="http://localhost:1313/#services" class="navbar-item is-secondary">
+            Services
+          </a>
+          <a href="http://localhost:1313/#contact" class="navbar-item is-secondary">
+            Contact
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://localhost:1313/">
+        <img src="http://localhost:1313/images/logos/p1st_logo_v2_320x320.png" alt="">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="http://localhost:1313/" class="navbar-item is-secondary">
+          Home
+        </a>
+        <a href="http://localhost:1313/#services" class="navbar-item is-secondary">
+          Services
+        </a>
+        <a href="http://localhost:1313/#contact" class="navbar-item is-secondary">
+          Contact
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">技術がわからないPMが、判断できなくなる本当の理由</h1>
+        <h5 class="subtitle is-5 is-muted">実装を理解し、顧客からもエンジニアからも信頼される「真のプロフェッショナルPM」を育てるための、伴走型コーチングサービスです。</h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="content"><h1 id="技術がわからないpmが判断できなくなる本当の理由">技術がわからないPMが、判断できなくなる本当の理由</h1>
+<h2 id="こんな場面に心当たりはありませんか">こんな場面に心当たりはありませんか？</h2>
+<p>エンジニアに仕様を相談したとき、<br>
+「それは難しいですね」と言われて会話が止まる。</p>
+<p>見積もりが出てきても、妥当かどうか判断できない。</p>
+<p>優先順位を決めきれず、結局「全部やる」ことになる。</p>
+<p>気づけばスケジュールは遅れ、<br>
+チームの発言も少しずつ減っていく。</p>
+<p>そして最後は、<br>
+「もっと早く言ってほしかったですね」と言われる。</p>
+<p>PMとして現場に立っていると、こうした瞬間に何度も出会います。</p>
+<p>真面目に取り組んでいるのに、なぜかうまくいかない。<br>
+頑張っているのに、手応えがない。</p>
+<p>そんな感覚を持ったことはないでしょうか。</p>
+<hr>
+<h2 id="これは能力不足ではない">これは「能力不足」ではない</h2>
+<p>まず最初に伝えたいのは、<br>
+これはPM個人の能力や努力不足の問題ではない、ということです。</p>
+<p>多くのPMは十分に優秀で、責任感も強く、<br>
+誰よりもプロジェクトの成功を願っています。</p>
+<p>それでもうまくいかない。</p>
+<p>なぜか。</p>
+<p>原因は、もっと構造的なところにあります。</p>
+<hr>
+<h2 id="判断できなくなる本当の理由">判断できなくなる本当の理由</h2>
+<p>結論から言うと、</p>
+<p><strong>「技術的な前提が見えていないこと」</strong></p>
+<p>これが一番の原因だと、私は考えています。</p>
+<p>PMの仕事は、突き詰めると「判断の連続」です。</p>
+<ul>
+<li>この要件は本当に必要か</li>
+<li>優先順位はどちらが先か</li>
+<li>この見積は妥当か</li>
+<li>スケジュールは現実的か</li>
+<li>リスクは許容できるか</li>
+</ul>
+<p>毎日、無数の意思決定をしています。</p>
+<p>そして、<br>
+<strong>判断には必ず「前提条件」が必要</strong>です。</p>
+<p>難易度、依存関係、影響範囲、実装コスト、技術的制約。</p>
+<p>これらが見えて初めて、比較や評価ができます。</p>
+<p>しかし技術的な構造が理解できていないと、この「前提」が見えません。</p>
+<p>するとどうなるか。</p>
+<p>判断ができない。</p>
+<p>だから最終的に、</p>
+<ul>
+<li>エンジニア任せにする</li>
+<li>顧客の要望をそのまま受け入れる</li>
+<li>なんとなくの感覚で決める</li>
+</ul>
+<p>こうなってしまいます。</p>
+<p>これは怠慢ではなく、<br>
+<strong>材料がない中で判断しようとしている状態</strong>なのです。</p>
+<hr>
+<h2 id="そしてプロジェクトは静かに崩れていく">そしてプロジェクトは静かに崩れていく</h2>
+<p>この状態が続くと、プロジェクトは徐々に悪循環に入ります。</p>
+<p>技術がわからない
+↓
+判断できない
+↓
+全部受ける／全部やる
+↓
+優先順位が崩れる
+↓
+スケジュールが遅れる
+↓
+チームが疲弊する
+↓
+意見が出なくなる
+↓
+PMがさらに孤立する</p>
+<p>派手な炎上ではなく、<br>
+「気づいたら崩れている」パターンです。</p>
+<p>私はこのケースを、何度も現場で見てきました。</p>
+<hr>
+<h2 id="必要なのは深い技術力ではない">必要なのは「深い技術力」ではない</h2>
+<p>ここで誤解してほしくないのは、<br>
+「PMもエンジニアになれ」と言いたいわけではありません。</p>
+<p>高度な実装力は必要ありません。</p>
+<p>でも、</p>
+<ul>
+<li>何が難しくて</li>
+<li>どこにリスクがあり</li>
+<li>どれくらいの工数感なのか</li>
+</ul>
+<p>これらを会話できるレベルの理解は、絶対に必要です。</p>
+<p>なぜならそれが、<br>
+<strong>判断するための材料になるから</strong>です。</p>
+<p>材料さえあれば、PMは本来とても強い。</p>
+<p>優先順位も決められるし、<br>
+顧客とも対等に話せるし、<br>
+エンジニアからも信頼されます。</p>
+<hr>
+<h2 id="pmの価値は管理ではなく判断">PMの価値は「管理」ではなく「判断」</h2>
+<p>PMはタスク管理者でも、単なる調整役でもありません。</p>
+<p>チームの進む方向を決める「意思決定者」です。</p>
+<p>そして意思決定には、技術理解が不可欠です。</p>
+<p>ここが抜け落ちたままでは、<br>
+どれだけフレームワークや手法を学んでも、本質的には強くなれない。</p>
+<p>これが、現場に立ち続けてきた中での実感です。</p>
+<hr>
+<h2 id="最後に">最後に</h2>
+<p>こうした<br>
+「技術を前提に判断できるPMになるための視点や思考法」は、<br>
+現在、実プロジェクトを題材にしたコーチングとして体系化しています。</p>
+<p>もし関心があれば、こちらにまとめています。</p>
+<p>👉 <a href="https://company.p1st.app/pm-coaching/">https://company.p1st.app/pm-coaching/</a></p>
+<p>PMとしてもう一段レベルアップしたい方の力になれれば嬉しいです。</p>
+</div>
+  </div>
+</section>
+
+
+
+  <h1 id="技術がわからないpmが判断できなくなる本当の理由">技術がわからないPMが、判断できなくなる本当の理由</h1>
+<h2 id="こんな場面に心当たりはありませんか">こんな場面に心当たりはありませんか？</h2>
+<p>エンジニアに仕様を相談したとき、<br>
+「それは難しいですね」と言われて会話が止まる。</p>
+<p>見積もりが出てきても、妥当かどうか判断できない。</p>
+<p>優先順位を決めきれず、結局「全部やる」ことになる。</p>
+<p>気づけばスケジュールは遅れ、<br>
+チームの発言も少しずつ減っていく。</p>
+<p>そして最後は、<br>
+「もっと早く言ってほしかったですね」と言われる。</p>
+<p>PMとして現場に立っていると、こうした瞬間に何度も出会います。</p>
+<p>真面目に取り組んでいるのに、なぜかうまくいかない。<br>
+頑張っているのに、手応えがない。</p>
+<p>そんな感覚を持ったことはないでしょうか。</p>
+<hr>
+<h2 id="これは能力不足ではない">これは「能力不足」ではない</h2>
+<p>まず最初に伝えたいのは、<br>
+これはPM個人の能力や努力不足の問題ではない、ということです。</p>
+<p>多くのPMは十分に優秀で、責任感も強く、<br>
+誰よりもプロジェクトの成功を願っています。</p>
+<p>それでもうまくいかない。</p>
+<p>なぜか。</p>
+<p>原因は、もっと構造的なところにあります。</p>
+<hr>
+<h2 id="判断できなくなる本当の理由">判断できなくなる本当の理由</h2>
+<p>結論から言うと、</p>
+<p><strong>「技術的な前提が見えていないこと」</strong></p>
+<p>これが一番の原因だと、私は考えています。</p>
+<p>PMの仕事は、突き詰めると「判断の連続」です。</p>
+<ul>
+<li>この要件は本当に必要か</li>
+<li>優先順位はどちらが先か</li>
+<li>この見積は妥当か</li>
+<li>スケジュールは現実的か</li>
+<li>リスクは許容できるか</li>
+</ul>
+<p>毎日、無数の意思決定をしています。</p>
+<p>そして、<br>
+<strong>判断には必ず「前提条件」が必要</strong>です。</p>
+<p>難易度、依存関係、影響範囲、実装コスト、技術的制約。</p>
+<p>これらが見えて初めて、比較や評価ができます。</p>
+<p>しかし技術的な構造が理解できていないと、この「前提」が見えません。</p>
+<p>するとどうなるか。</p>
+<p>判断ができない。</p>
+<p>だから最終的に、</p>
+<ul>
+<li>エンジニア任せにする</li>
+<li>顧客の要望をそのまま受け入れる</li>
+<li>なんとなくの感覚で決める</li>
+</ul>
+<p>こうなってしまいます。</p>
+<p>これは怠慢ではなく、<br>
+<strong>材料がない中で判断しようとしている状態</strong>なのです。</p>
+<hr>
+<h2 id="そしてプロジェクトは静かに崩れていく">そしてプロジェクトは静かに崩れていく</h2>
+<p>この状態が続くと、プロジェクトは徐々に悪循環に入ります。</p>
+<p>技術がわからない
+↓
+判断できない
+↓
+全部受ける／全部やる
+↓
+優先順位が崩れる
+↓
+スケジュールが遅れる
+↓
+チームが疲弊する
+↓
+意見が出なくなる
+↓
+PMがさらに孤立する</p>
+<p>派手な炎上ではなく、<br>
+「気づいたら崩れている」パターンです。</p>
+<p>私はこのケースを、何度も現場で見てきました。</p>
+<hr>
+<h2 id="必要なのは深い技術力ではない">必要なのは「深い技術力」ではない</h2>
+<p>ここで誤解してほしくないのは、<br>
+「PMもエンジニアになれ」と言いたいわけではありません。</p>
+<p>高度な実装力は必要ありません。</p>
+<p>でも、</p>
+<ul>
+<li>何が難しくて</li>
+<li>どこにリスクがあり</li>
+<li>どれくらいの工数感なのか</li>
+</ul>
+<p>これらを会話できるレベルの理解は、絶対に必要です。</p>
+<p>なぜならそれが、<br>
+<strong>判断するための材料になるから</strong>です。</p>
+<p>材料さえあれば、PMは本来とても強い。</p>
+<p>優先順位も決められるし、<br>
+顧客とも対等に話せるし、<br>
+エンジニアからも信頼されます。</p>
+<hr>
+<h2 id="pmの価値は管理ではなく判断">PMの価値は「管理」ではなく「判断」</h2>
+<p>PMはタスク管理者でも、単なる調整役でもありません。</p>
+<p>チームの進む方向を決める「意思決定者」です。</p>
+<p>そして意思決定には、技術理解が不可欠です。</p>
+<p>ここが抜け落ちたままでは、<br>
+どれだけフレームワークや手法を学んでも、本質的には強くなれない。</p>
+<p>これが、現場に立ち続けてきた中での実感です。</p>
+<hr>
+<h2 id="最後に">最後に</h2>
+<p>こうした<br>
+「技術を前提に判断できるPMになるための視点や思考法」は、<br>
+現在、実プロジェクトを題材にしたコーチングとして体系化しています。</p>
+<p>もし関心があれば、こちらにまとめています。</p>
+<p>👉 <a href="https://company.p1st.app/pm-coaching/">https://company.p1st.app/pm-coaching/</a></p>
+<p>PMとしてもう一段レベルアップしたい方の力になれれば嬉しいです。</p>
+
+}}
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="http://localhost:1313/images/logos/p1st_logo_v2_320x320.png">
+          <p class="is-size-6">株式会社プレイヤーズファースト</p>
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Services</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                
+                <a href="http://localhost:1313/pm-coaching">
+                  PMプロフェッショナル育成コーチング
+                </a>
+                
+              </li>
+              <li>
+                
+                <a href="http://localhost:1313/aws-training">
+                  AWSエンジニア育成研修
+                </a>
+                
+              </li>
+              <li>
+                
+                  企業向けサービス プロダクト開発
+                
+              </li>
+              <li>
+                
+                <a href="https://joblog.p1st.app/">
+                  プロトタイプ JobLog ジョブログ
+                </a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Company</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                
+                <a href="http://localhost:1313/privacy">
+                  プライバシーポリシー
+                </a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      
+    </div>
+    <p class="has-text-centered">© Players1st inc. All rights reserved.</p>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="http://localhost:1313/js/fresh.js"></script>
+<script src="http://localhost:1313/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="//www.google.com/recaptcha/api.js" async defer></script>
+
+
+  </body>
+</html>
