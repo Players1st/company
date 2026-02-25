@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>株式会社プレイヤーズファースト</title>
-    <link>https://company.p1st.app/</link>
-    <description>Recent content on 株式会社プレイヤーズファースト</description>
+    <title>PM on 株式会社プレイヤーズファースト</title>
+    <link>https://company.p1st.app/tags/pm/</link>
+    <description>Recent content in PM on 株式会社プレイヤーズファースト</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 24 Feb 2026 15:30:00 +0900</lastBuildDate>
-    <atom:link href="https://company.p1st.app/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>私がPMコーチングを始めた理由</title>
-      <link>https://company.p1st.app/blog/20260224_why_pm_coaching/</link>
-      <pubDate>Tue, 24 Feb 2026 15:30:00 +0900</pubDate>
-      <guid>https://company.p1st.app/blog/20260224_why_pm_coaching/</guid>
-      <description>私がPMコーチングを始めた理由 はじめに 私はこれまで、複数のプロジェクトでPM（プロジェクトマネージャー）として現場に立ってきました。&#xA;規模もフェーズもさまざまで、順調に進んだ案件もあれば、正直に言えば崩壊しかけた案件もあります。&#xA;その経験を通して、ひとつ強く感じたことがあります。&#xA;プロジェクトの成否は「技術」よりも「PMの在り方」に強く依存する。&#xA;それが、私がPMコーチングを始めた理由です。&#xA;1. 優秀な人材が、構造の中で消耗していく現実 プロジェクトが崩れるとき、よく聞く言葉があります。&#xA;「メンバーのスキルが足りなかった」 「クライアントが無茶だった」 「要件が曖昧だった」 しかし、現場を冷静に振り返ると、本質は別にあることが多い。&#xA;意思決定の構造が曖昧 目的が言語化されていない リスクが共有されていない 誰も全体構造を見ていない 優秀なエンジニアやデザイナーが、構造不全の中で疲弊していく。&#xA;責任感の強い人ほど、沈んでいく。&#xA;その中心にいるのが、PMです。&#xA;2. 「PMは孤独」という構造的問題 PMという役割は、組織上は責任を負いますが、&#xA;実務上は“相談できる相手がいない”ことが多い。&#xA;上司は数字を見る メンバーは実装を見る クライアントは成果を見る しかしPMは、&#xA;構造・関係性・期待値・心理状態・リスクを同時に見続けなければならない。&#xA;この負荷は想像以上に高い。&#xA;それでも、多くのPMは体系的な教育を受けずに現場へ出ます。&#xA;結果として、経験則と根性論で乗り切ることになる。&#xA;私はここに、大きな課題を感じました。&#xA;3. 「スキル」ではなく「視座」を支援したい PM向けの情報は世の中に溢れています。&#xA;WBSの作り方 リスク管理手法 アジャイルのフレームワーク ステークホルダーマネジメント理論 しかし現場で崩れるのは、&#xA;「手法を知らないから」ではないことが多い。&#xA;問題は、&#xA;どの順番で考えるのか どこに構造的な歪みがあるのか 何を優先し、何を捨てるのか 今この状況は“どのフェーズの問題”なのか という思考のフレームです。&#xA;私は、テクニックを教えるのではなく、&#xA;構造を見抜く視座を共有したいと考えるようになりました。&#xA;4. 「崩壊する前」に支援したい 多くの相談は、炎上後に来ます。&#xA;仕様が止まらない 納期が守れない メンバーが疲弊している クライアントが不信感を持っている しかし本当に価値があるのは、&#xA;崩壊する前に構造を整えることです。&#xA;要件定義の時点で目的を固定する 意思決定ラインを明確化する リスクを言語化し、共有する PM自身が孤立しない環境を作る これは、現場の伴走と対話がなければ実現できません。&#xA;だからこそ、PMコーチングという形を選びました。&#xA;5. PMは「調整役」ではない PMはよく「調整役」と言われます。&#xA;しかし私は、そうは思っていません。</description>
-    </item>
+    <lastBuildDate>Fri, 20 Feb 2026 10:54:00 +0900</lastBuildDate>
+    <atom:link href="https://company.p1st.app/tags/pm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>なぜ「要件定義」が崩壊の始まりになるのか</title>
       <link>https://company.p1st.app/blog/20260220_requirement_fail/</link>
@@ -42,55 +35,6 @@
       <pubDate>Thu, 12 Feb 2026 11:27:00 +0900</pubDate>
       <guid>https://company.p1st.app/blog/20260212_pm_coaching/</guid>
       <description>こんな場面に心当たりはありませんか？ エンジニアに仕様を相談したとき、&#xA;「それは難しいですね」と言われて会話が止まる。&#xA;見積もりが出てきても、妥当かどうか判断できない。&#xA;優先順位を決めきれず、結局「全部やる」ことになる。&#xA;気づけばスケジュールは遅れ、&#xA;チームの発言も少しずつ減っていく。&#xA;そして最後は、&#xA;「もっと早く言ってほしかったですね」と言われる。&#xA;PMとして現場に立っていると、こうした瞬間に何度も出会います。&#xA;真面目に取り組んでいるのに、なぜかうまくいかない。&#xA;頑張っているのに、手応えがない。&#xA;そんな感覚を持ったことはないでしょうか。&#xA;これは「能力不足」ではない まず最初に伝えたいのは、&#xA;これはPM個人の能力や努力不足の問題ではない、ということです。&#xA;多くのPMは十分に優秀で、責任感も強く、&#xA;誰よりもプロジェクトの成功を願っています。&#xA;それでもうまくいかない。&#xA;なぜか。&#xA;原因は、もっと構造的なところにあります。&#xA;判断できなくなる本当の理由 結論から言うと、&#xA;「技術的な前提が見えていないこと」&#xA;これが一番の原因だと、私は考えています。&#xA;PMの仕事は、突き詰めると「判断の連続」です。&#xA;この要件は本当に必要か 優先順位はどちらが先か この見積は妥当か スケジュールは現実的か リスクは許容できるか 毎日、無数の意思決定をしています。&#xA;そして、&#xA;判断には必ず「前提条件」が必要です。&#xA;難易度、依存関係、影響範囲、実装コスト、技術的制約。&#xA;これらが見えて初めて、比較や評価ができます。&#xA;しかし技術的な構造が理解できていないと、この「前提」が見えません。&#xA;するとどうなるか。&#xA;判断ができない。&#xA;だから最終的に、&#xA;エンジニア任せにする 顧客の要望をそのまま受け入れる なんとなくの感覚で決める こうなってしまいます。&#xA;これは怠慢ではなく、&#xA;材料がない中で判断しようとしている状態なのです。&#xA;そしてプロジェクトは静かに崩れていく この状態が続くと、プロジェクトは徐々に悪循環に入ります。&#xA;技術がわからない ↓ 判断できない ↓ 全部受ける／全部やる ↓ 優先順位が崩れる ↓ スケジュールが遅れる ↓ チームが疲弊する ↓ 意見が出なくなる ↓ PMがさらに孤立する 派手な炎上ではなく、&#xA;「気づいたら崩れている」パターンです。&#xA;私はこのケースを、何度も現場で見てきました。&#xA;必要なのは「深い技術力」ではない ここで誤解してほしくないのは、&#xA;「PMもエンジニアになれ」と言いたいわけではありません。&#xA;高度な実装力は必要ありません。</description>
-    </item>
-    <item>
-      <title>AWSエンジニア育成研修 - 現場で使えるAWS実践研修</title>
-      <link>https://company.p1st.app/aws-training/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/aws-training/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MetApps - スポーツSNSアプリ メットリシリーズ</title>
-      <link>https://company.p1st.app/met-apps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/met-apps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PMプロフェッショナル育成コーチング</title>
-      <link>https://company.p1st.app/pm-coaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/pm-coaching/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>サッカーSNSアプリ - サッカーメット</title>
-      <link>https://company.p1st.app/football-met/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/football-met/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>フットサルSNSアプリ - フットサルメット</title>
-      <link>https://company.p1st.app/futsal-met/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/futsal-met/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>プライバシーポリシー</title>
-      <link>https://company.p1st.app/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>野球SNSアプリ - 草野球メット</title>
-      <link>https://company.p1st.app/baseball-met/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://company.p1st.app/baseball-met/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
