@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>要件定義 on 株式会社プレイヤーズファースト</title>
+    <link>http://localhost:1313/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/</link>
+    <description>Recent content in 要件定義 on 株式会社プレイヤーズファースト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 20 Feb 2026 10:54:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>良いPMと悪いPMの決定的な違い</title>
+      <link>http://localhost:1313/blog/20260220_requirement_fail/</link>
+      <pubDate>Fri, 20 Feb 2026 10:54:00 +0900</pubDate>
+      <guid>http://localhost:1313/blog/20260220_requirement_fail/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

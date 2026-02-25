@@ -1,0 +1,16 @@
+{{ range .Data.Pages }}
+  <div class="media">
+    {{ if .Params.thumbnailImage }}
+    <div class="media-left">
+      <div class="image is-128x128">
+        <img src="{{ .Params.thumbnailImage}}" alt="{{ .Title }} thumbnail">
+      </div>
+    </div>
+    {{ end }}
+    <div class="media-content">
+      <div class="content">
+        <a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
