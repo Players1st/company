@@ -73,6 +73,7 @@
       </div>
       {{ end }}
 
+      {{ if $tiles3 }}
       <h2 class="subtitle is-4 has-text-centered">{{ $tilesTitle3 }}</h2>
       <div class="columns is-multiline">
         {{- range $tiles3 }}
@@ -97,6 +98,35 @@
         </div>
         {{- end }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
+
+
+<section class="section is-medium">
+    <div class="container">
+      <div class="title-wrapper has-text-centered mb-40">
+        <a href="/blog">
+          <h2 class="title is-2">Blog</h2>
+        </a>
+        <div class="divider is-centered" style="margin-bottom: 10px;"></div>
+        <h5 class="subtitle is-5">ITプロダクト開発で失敗しないためのノウハウを公開</h5>
+      </div>
+
+    <div class="columns">
+      <div class="column is-6 is-offset-3">
+        <div class="has-text-left">      
+          <ul style="list-style:none;">
+            <li><a href="/blog/20260224_why_pm_coaching/">私がPMコーチングを始めた理由</a></li>
+            <li><a href="/blog/20260220_requirement_fail/">なぜ「要件定義」が崩壊の始まりになるのか</a></li>
+            <li><a href="/blog/20260218_good_pm/">良いPMと悪いPMの決定的な違い</a></li>
+            <li><a href="/blog/20260216_three_signs/">炎上プロジェクトに共通する3つの初期サイン</a></li>
+            <li><a href="/blog/20260212_pm_coaching/">技術がわからないPMが、判断できなくなる本当の理由</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+</section>
+
