@@ -5,12 +5,15 @@ date: 2026-03-06T10:30:00+09:00
 draft: false
 sidebar: false
 categories:
-- PMノウハウ
+- プロダクトマネジメント
+- 新規事業PM
 tags:
+- アジャイル
 - 大企業
-- 新規事業
-- IT開発
+- ベンダーコントロール
+- MVP開発
 - 失敗
+- スタートアップ思考
 comments: false
 thumbnailImage: /images/blog/20260306_cover_p1st_pm_white_paper.png
 images: 

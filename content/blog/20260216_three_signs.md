@@ -5,7 +5,7 @@ date: 2026-02-16T14:41:00+09:00
 draft: false
 sidebar: false
 categories:
-- PMノウハウ
+- プロジェクトマネジメント
 tags:
 - 炎上プロジェクト
 - 初期サイン
