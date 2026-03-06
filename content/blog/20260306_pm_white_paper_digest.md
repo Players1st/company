@@ -10,7 +10,6 @@ tags:
 - 大企業
 - 新規事業
 - IT開発
-- 失速
 - 失敗
 comments: false
 thumbnailImage: /images/blog/20260306_cover_p1st_pm_white_paper.png

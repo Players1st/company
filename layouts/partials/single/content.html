@@ -8,9 +8,7 @@
       </div>
     </div>
 
-    {{ if eq .Title "Blogs" }}
-      {{ partial "list.html" . }}
-    {{ end}}
+    {{ partial "list.html" . }}
   
     {{- if .Content }}
       {{- partial "post_meta.html" . -}}
