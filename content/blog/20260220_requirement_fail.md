@@ -8,8 +8,7 @@ categories:
 - プロジェクトマネジメント
 tags:
 - 要件定義
-- IT開発
-- PM
+- it開発
 - 失敗
 comments: false
 thumbnailImage: /images/blog/20260220_requirement_fail.png

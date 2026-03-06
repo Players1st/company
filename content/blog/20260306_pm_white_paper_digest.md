@@ -6,12 +6,12 @@ draft: false
 sidebar: false
 categories:
 - プロダクトマネジメント
-- 新規事業PM
+- 新規事業pm
 tags:
 - アジャイル
 - 大企業
 - ベンダーコントロール
-- MVP開発
+- mvp開発
 - 失敗
 - スタートアップ思考
 comments: false

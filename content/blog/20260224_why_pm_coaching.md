@@ -5,10 +5,10 @@ date: 2026-02-24T15:30:00+09:00
 draft: false
 sidebar: false
 categories:
-- 技術×経営
+- 技術☓経営
 tags:
-- PMコーチング
-- IT開発
+- pmコーチング
+- it開発
 - 失敗
 comments: false
 thumbnailImage: /images/blog/20260224_why_pm_coaching.png
