@@ -77,11 +77,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://company.p1st.app/tags/pm/</loc>
-    <lastmod>2026-02-20T10:54:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://company.p1st.app/blog/20260220_requirement_fail/</loc>
     <lastmod>2026-02-20T10:54:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -94,6 +89,11 @@
   </url><url>
     <loc>https://company.p1st.app/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/</loc>
     <lastmod>2026-02-20T10:54:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/tags/pm/</loc>
+    <lastmod>2026-02-18T16:13:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
