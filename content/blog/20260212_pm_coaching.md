@@ -5,9 +5,8 @@ date: 2026-02-12T11:27:00+09:00
 draft: false
 sidebar: false
 categories:
-- PMノウハウ
-tags:
 - プロジェクトマネジメント
+tags:
 - IT開発
 - 失敗
 - PM

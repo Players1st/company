@@ -5,7 +5,7 @@ date: 2026-02-24T15:30:00+09:00
 draft: false
 sidebar: false
 categories:
-- PMノウハウ
+- 技術×経営
 tags:
 - PMコーチング
 - IT開発

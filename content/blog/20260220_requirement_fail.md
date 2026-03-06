@@ -5,7 +5,7 @@ date: 2026-02-20T10:54:00+09:00
 draft: false
 sidebar: false
 categories:
-- PMノウハウ
+- プロジェクトマネジメント
 tags:
 - 要件定義
 - IT開発
