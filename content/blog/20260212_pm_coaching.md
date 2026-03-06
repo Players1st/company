@@ -7,9 +7,9 @@ sidebar: false
 categories:
 - プロジェクトマネジメント
 tags:
-- IT開発
+- it開発
 - 失敗
-- PM
+- pm
 comments: false
 thumbnailImage: /images/biz/pm-coaching.png
 images: 

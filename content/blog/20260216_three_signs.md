@@ -10,7 +10,7 @@ tags:
 - 炎上プロジェクト
 - 初期サイン
 - 失敗
-- PM
+- pm
 comments: false
 thumbnailImage: /images/blog/20260216-three-signs.png
 images: 
