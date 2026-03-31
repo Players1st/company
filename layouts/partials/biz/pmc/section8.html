@@ -1,27 +1,30 @@
 {{ $section := .Site.Params.pmCoaching.section8 }}
-{{ $contents    := index $section "contents" }}
+{{ $plans    := index $section "plans" }}
 
 <section class="section section-feature-grey">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2 is-spaced">{{ $section.title }}</h2>
-      <h3 class="subtitle is-5">{{ $section.subtitle }}</h3>
+      {{ if $section.subtitle }}<h3 class="subtitle is-5">{{ $section.subtitle }}</h3>{{ end }}
       <div class="divider is-centered"></div>
     </div>
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-8 is-offset-2">
-          <div class="card">
+          {{ range $plans }}
+          <div class="card" style="margin-bottom: 1.5rem;">
+            <div class="card-header">
+              <div class="card-header-title is-size-4">{{ .name }}</div>
+              <div class="card-header-icon has-text-weight-bold has-text-primary">{{ .price }}</div>
+            </div>
             <div class="card-content">
-              <div class="content is-size-4">
-                <ol>
-                  {{ range $contents }}
-                    <li>{{ .title }}</li>
-                  {{ end }}
-                </ol>
-              </div>
+              <div class="content">{{ .description | safeHTML }}</div>
+              {{ if .note }}
+              <div class="content is-size-7 has-text-grey">{{ .note }}</div>
+              {{ end }}
             </div>
           </div>
+          {{ end }}
         </div>
       </div>
     </div>
