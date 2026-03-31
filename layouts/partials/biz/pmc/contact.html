@@ -19,10 +19,10 @@
               <input type="email" name="email" class="input is-medium" placeholder="メールアドレス" required="">
             </div>
             <div class="column is-12">
-              <input type="text" name="company" class="input is-medium" placeholder="会社名" required="">
+              <input type="text" name="company" class="input is-medium" placeholder="会社名（任意）">
             </div>
             <div class="column is-12">
-              <textarea name="message" class="textarea" rows="10" placeholder="メッセージ" required=""></textarea>
+              <textarea name="message" class="textarea" rows="10" placeholder="セッションで扱いたいテーマや状況をお知らせください" required=""></textarea>
             </div>
             {{ if .Site.Params.googleRecaptchaKey }}
               <div class="column is-12">
