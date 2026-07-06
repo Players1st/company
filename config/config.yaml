@@ -104,8 +104,14 @@ params:
   section1:
     title: 事業内容
     subtitle:
-    # tilesTitle1: 自社サービス
-    # tiles:
+    tilesTitle1: 自社サービス
+    tiles:
+    - title: P1st Startup Showcase
+      subtitle: AIを活用したマルチスタートアップスタジオ
+      icon: showcase
+      text: AIを活用しながら、ユーザーの困りごとを解決するため、複数のサービスを同時並行に検証しています。開発中のサービスをご紹介します。
+      url: https://showcase.p1st.app/
+      buttonText: サービス紹介
     # - title: フットサルメット
     #   subtitle: フットサルSNSアプリ
     #   icon: futsalmet
