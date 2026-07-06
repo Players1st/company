@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>要件定義 on 株式会社プレイヤーズファースト</title>
-    <link>http://localhost:1313/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/</link>
+    <link>https://company.p1st.app/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/</link>
     <description>Recent content in 要件定義 on 株式会社プレイヤーズファースト</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 20 Feb 2026 10:54:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://company.p1st.app/tags/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>なぜ「要件定義」が崩壊の始まりになるのか</title>
-      <link>http://localhost:1313/blog/20260220_requirement_fail/</link>
+      <link>https://company.p1st.app/blog/20260220_requirement_fail/</link>
       <pubDate>Fri, 20 Feb 2026 10:54:00 +0900</pubDate>
-      <guid>http://localhost:1313/blog/20260220_requirement_fail/</guid>
+      <guid>https://company.p1st.app/blog/20260220_requirement_fail/</guid>
       <description>多くの炎上プロジェクトは、&#xA;開発後半ではなく、要件定義の段階ですでに崩れ始めています。&#xA;しかし当事者はそれに気づきません。&#xA;なぜなら要件定義は、&#xA;「順調に進んでいるように見える工程」だからです。&#xA;会議もしている ドキュメントも作っている 合意も取っている それでも、崩壊は静かに始まっています。&#xA;要件定義で本当に起きていること 多くの現場で起きているのは、&#xA;“要望の整理”であって、“要件の定義”ではないという現象です。&#xA;顧客や事業側の声を集め、&#xA;これも必要 あれも欲しい 将来的にはこうしたい それを資料にまとめる。&#xA;一見、正しいプロセスに見えます。&#xA;しかし、本来の要件定義は違います。&#xA;「何をやらないか」を決める工程&#xA;です。&#xA;ここが曖昧なまま進むと、&#xA;後工程で必ず歪みが生まれます。&#xA;崩壊が始まる3つのポイント 1. 目的が抽象的なまま進む 典型例：&#xA;「ユーザー体験を向上させたい」 「業務を効率化したい」 「競争力を強化したい」 間違ってはいません。&#xA;しかし抽象的な目的は、&#xA;無限に解釈可能です。&#xA;その結果、&#xA;スコープが膨張する 優先順位が揺れる 意思決定がブレる 要件定義の最初にやるべきことは、&#xA;このプロジェクトが“成功”と言える状態は何か？&#xA;を定義することです。&#xA;これがないまま仕様に入ると、&#xA;プロジェクトは必ず迷走します。&#xA;2. 前提条件が言語化されていない 多くの要件定義書には、機能一覧はあります。&#xA;しかし、&#xA;技術制約 予算制約 スケジュール制約 組織的制約 が明文化されていないことが多い。&#xA;結果として、&#xA;「そんな前提は聞いていない」 「それは想定外だった」&#xA;という衝突が起きます。&#xA;要件とは、&#xA;機能 + 制約条件 です。&#xA;制約を書かない要件定義は、&#xA;設計図のない建築と同じです。&#xA;3. 決定構造が曖昧 要件定義中によく聞く言葉があります。&#xA;「一旦これでいきましょう」 「仮で置いておきます」 「後で調整しましょう」 仮置きが多いプロジェクトは、&#xA;ほぼ確実に後半で爆発します。</description>
     </item>
   </channel>
