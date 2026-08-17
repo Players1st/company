@@ -1,11 +1,12 @@
 $(document).ready(function(){
     
     //Preloader
-    $(window).on('load', function() { // makes sure the whole site is loaded 
-        $('#status').fadeOut(); // will first fade out the loading animation 
-        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-        $('body').delay(350).css({'overflow':'visible'});
-    })
+    // Previously waited for window 'load' (every image/font/3rd-party script,
+    // including Google Analytics) before revealing the page, which made the
+    // whole site appear to hang on a blank spinner. DOM ready is enough.
+    $('#status').fadeOut(); // will first fade out the loading animation
+    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').delay(350).css({'overflow':'visible'});
 
     //Mobile menu toggle
     if ($('.navbar-burger').length) {
