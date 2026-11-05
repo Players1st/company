@@ -448,3 +448,5 @@ params:
         links:
         - text: プライバシーポリシー
           link: /privacy
+        - text: 特定商取引法に基づく表記
+          link: /tokushoho
