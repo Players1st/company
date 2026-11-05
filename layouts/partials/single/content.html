@@ -65,4 +65,6 @@
   {{ partial "privacy.html" . }}
 {{ else if .Params.tokushoho }}
   {{ partial "tokushoho.html" . }}
+{{ else if .Params.terms }}
+  {{ partial "terms.html" . }}
 {{ end }}
