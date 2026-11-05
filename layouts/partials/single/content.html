@@ -63,4 +63,6 @@
   {{ end }}
 {{ else if .Params.privacy }}
   {{ partial "privacy.html" . }}
+{{ else if .Params.tokushoho }}
+  {{ partial "tokushoho.html" . }}
 {{ end }}
