@@ -5,8 +5,7 @@ date: 2026-03-06T10:30:00+09:00
 draft: false
 sidebar: false
 categories:
-- プロダクトマネジメント
-- 新規事業pm
+- PM育成
 tags:
 - アジャイル
 - 大企業

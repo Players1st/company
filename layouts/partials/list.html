@@ -1,3 +1,13 @@
+{{- if or (eq .Kind "section") (eq .Kind "term") }}
+  {{- $current := "" }}
+  {{- if eq .Kind "term" }}{{ $current = .Title }}{{ end }}
+  <div class="tags mb-5">
+    <a class="tag is-medium {{ if eq .Kind "section" }}is-primary{{ else }}is-light{{ end }}" href="{{ "blog/" | absURL }}">すべて</a>
+    {{ range .Site.Taxonomies.categories.Alphabetical }}
+      <a class="tag is-medium {{ if eq $current .Page.Title }}is-primary{{ else }}is-light{{ end }}" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+    {{ end }}
+  </div>
+{{- end }}
 {{ range .Data.Pages }}
   <div class="media">
     {{ if .Params.thumbnailImage }}
@@ -10,6 +20,11 @@
     <div class="media-content">
       <div class="content">
         <a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}
+        {{ with .GetTerms "categories" }}
+        <div class="tags mt-1">
+          {{ range . }}<a class="tag is-info is-light" href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>

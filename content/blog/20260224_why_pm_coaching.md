@@ -5,7 +5,7 @@ date: 2026-02-24T15:30:00+09:00
 draft: false
 sidebar: false
 categories:
-- 技術x経営
+- PM育成
 tags:
 - pmコーチング
 - it開発
