@@ -29,7 +29,7 @@ thumbnailImage: https://showcase.p1st.app/og/osaifu-check.png
 ## 公開サービスのご紹介
 
 ### 1. 親の介護おサイフ診断
-![親の介護おサイフ診断](/images/blog/20261109_osaifu_tsugianken_release_osaifu-check.png)
+![親の介護おサイフ診断](https://showcase.p1st.app/og/osaifu-check.png)
 
 3つの質問（親の年代・貯蓄帯・希望の介護スタイル）に答えるだけで、その場で以下の結果を動的に可視化します。
 
@@ -45,7 +45,7 @@ thumbnailImage: https://showcase.p1st.app/og/osaifu-check.png
 ---
 
 ### 2. 次案件ナビ
-![次案件ナビ](/images/blog/20261109_osaifu_tsugianken_release_tsugianken-navi.png)
+![次案件ナビ](https://showcase.p1st.app/og/tsugianken-navi.png)
 
 フリーランス（準委任・業務委託）エンジニア向けに、契約終了日を入力するだけで **「終了90日前からの具体的な段取り（相場確認・エージェント連絡・経歴書更新・面談準備）」** が実際のカレンダー日付付きでその場に生成されます。
 
