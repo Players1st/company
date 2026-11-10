@@ -2,12 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://company.p1st.app/blog/20261109_osaifu_tsugianken_release/</loc>
-    <lastmod>2026-11-09T10:00:00+09:00</lastmod>
+    <loc>https://company.p1st.app/tags/ai%E6%B4%BB%E7%94%A8/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://company.p1st.app/tags/ai%E6%B4%BB%E7%94%A8/</loc>
+    <loc>https://company.p1st.app/blog/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/tags/%E3%81%B2%E3%81%A8%E3%82%8A%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/tags/%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/categories/%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/blog/20261110_press_release_60_mvp/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/tags/%E6%96%B0%E8%A6%8F%E4%BA%8B%E6%A5%AD/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/tags/%E9%81%94%E6%88%90/</loc>
+    <lastmod>2026-11-10T11:40:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://company.p1st.app/blog/20261109_osaifu_tsugianken_release/</loc>
     <lastmod>2026-11-09T10:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -17,22 +57,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://company.p1st.app/blog/</loc>
-    <lastmod>2026-11-09T10:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://company.p1st.app/tags/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/</loc>
-    <lastmod>2026-11-09T10:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://company.p1st.app/tags/%E6%96%B0%E8%A6%8F%E4%BA%8B%E6%A5%AD/</loc>
-    <lastmod>2026-11-09T10:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://company.p1st.app/</loc>
     <lastmod>2026-11-09T10:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
